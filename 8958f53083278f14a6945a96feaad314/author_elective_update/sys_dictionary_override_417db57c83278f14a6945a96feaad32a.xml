@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>item_option_new</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>variable_set</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_842748_tes_lore_tes_question</name>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_only_option_override>false</read_only_option_override>
+        <read_only_override>false</read_only_override>
+        <reference_qual>internal_nameLIKEtes_book</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:56:30</sys_created_on>
+        <sys_id>417db57c83278f14a6945a96feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable_set</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_dictionary_override_417db57c83278f14a6945a96feaad32a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:56:30</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_dictionary_override_417db57c83278f14a6945a96feaad32a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>item_option_new</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>variable_set</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_842748_tes_lore_tes_question</name><read_only>false</read_only><read_only_option/><read_only_option_override>false</read_only_option_override><read_only_override>false</read_only_override><reference_qual>internal_nameLIKEtes_book</reference_qual><reference_qual_override>true</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:56:30</sys_created_on><sys_id>417db57c83278f14a6945a96feaad32a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>variable_set</sys_name><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_dictionary_override_417db57c83278f14a6945a96feaad32a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:56:30</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>1381208759</payload_hash>
+        <record_name>variable_set</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:56:30</sys_created_on>
+        <sys_id>06ad3d7c83278f14a6945a96feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0ccd647990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:56:30</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>c2ad3d7c78278f1454c91dc4a9a02a79</update_guid>
+        <update_guid_history>c2ad3d7c78278f1454c91dc4a9a02a79:1381208759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 05:43:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>3e09c13e16da458a89310f41fa985e04</sys_id>
+        <sys_metadata>417db57c83278f14a6945a96feaad32a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable_set</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="">38397db083278f14a6945a96feaad385</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_417db57c83278f14a6945a96feaad32a</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_417db57c83278f14a6945a96feaad32a">06ad3d7c83278f14a6945a96feaad37a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 05:43:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

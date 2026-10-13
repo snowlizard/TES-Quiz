@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Availability" section_id="8ea8757083278f14a6945a96feaad301" sys_domain="global" table="x_842748_tes_lore_tes_question" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <name/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>cea8757083278f14a6945a96feaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <text>Variable Availability Section</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cea8757083278f14a6945a96feaad303</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>06a8757083278f14a6945a96feaad305</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>8aa8757083278f14a6945a96feaad309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visible_standalone</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>82a8757083278f14a6945a96feaad306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visible_bundle</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>0aa8757083278f14a6945a96feaad30a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>not_available_conversation</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>02a8757083278f14a6945a96feaad307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>86a8757083278f14a6945a96feaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visible_guide</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>8ea8757083278f14a6945a96feaad307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visible_summary</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>06a8757083278f14a6945a96feaad30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>0ea8757083278f14a6945a96feaad308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Availability</caption>
+            <header>false</header>
+            <name>x_842748_tes_lore_tes_question</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ea8757083278f14a6945a96feaad301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_842748_tes_lore_tes_question</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+            <sys_update_name>sys_ui_section_8ea8757083278f14a6945a96feaad301</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_ui_section_8ea8757083278f14a6945a96feaad301</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Availability" section_id="8ea8757083278f14a6945a96feaad301" sys_domain="global" table="x_842748_tes_lore_tes_question" version="3" view=""><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>false</is_plain_text><name/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>cea8757083278f14a6945a96feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><text>Variable Availability Section</text><type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type></sys_ui_annotation><sys_ui_element action="INSERT_OR_UPDATE"><element>cea8757083278f14a6945a96feaad303</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>06a8757083278f14a6945a96feaad305</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>8aa8757083278f14a6945a96feaad309</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>visible_standalone</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>82a8757083278f14a6945a96feaad306</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>visible_bundle</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>0aa8757083278f14a6945a96feaad30a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>not_available_conversation</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>02a8757083278f14a6945a96feaad307</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>86a8757083278f14a6945a96feaad30b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>visible_guide</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>8ea8757083278f14a6945a96feaad307</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>visible_summary</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>06a8757083278f14a6945a96feaad30c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>0ea8757083278f14a6945a96feaad308</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Availability" display_value="Availability" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">8ea8757083278f14a6945a96feaad301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Availability</caption><header>false</header><name>x_842748_tes_lore_tes_question</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8ea8757083278f14a6945a96feaad301</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_842748_tes_lore_tes_question</sys_name><sys_overrides/><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_ui_section_8ea8757083278f14a6945a96feaad301</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>944009068</payload_hash>
+        <record_name>TES Question</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+        <sys_id>4ea8757083278f14a6945a96feaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0ccc248cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>02a875702a278f147fd8cdec7aec0910</update_guid>
+        <update_guid_history>02a875702a278f147fd8cdec7aec0910:944009068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:49:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>01745dc0904a430a84b8dd68fbda0599</sys_id>
+        <sys_metadata>8ea8757083278f14a6945a96feaad301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Availability</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="">99a8f17083278f14a6945a96feaad396</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_8ea8757083278f14a6945a96feaad301</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_8ea8757083278f14a6945a96feaad301">4ea8757083278f14a6945a96feaad310</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:49:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

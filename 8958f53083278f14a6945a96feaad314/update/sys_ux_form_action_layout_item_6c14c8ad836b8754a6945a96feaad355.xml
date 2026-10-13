@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Publish">6814c8ad836b8754a6945a96feaad311</action>
+        <active>true</active>
+        <animate_icon>false</animate_icon>
+        <color>secondary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Publish</label>
+        <layout_group/>
+        <name>Publish</name>
+        <order>100</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 05:00:43</sys_created_on>
+        <sys_id>6c14c8ad836b8754a6945a96feaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Publish</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_6c14c8ad836b8754a6945a96feaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 05:00:43</sys_updated_on>
+        <table>x_842748_tes_lore_tes_question</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

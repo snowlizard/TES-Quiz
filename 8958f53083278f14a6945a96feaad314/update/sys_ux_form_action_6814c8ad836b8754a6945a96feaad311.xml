@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Publish</name>
+        <specificity>40</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 05:00:43</sys_created_on>
+        <sys_id>6814c8ad836b8754a6945a96feaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Publish</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_ux_form_action_6814c8ad836b8754a6945a96feaad311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 05:00:43</sys_updated_on>
+        <table>x_842748_tes_lore_tes_question</table>
+        <ui_action display_value="Publish">0453842d836b8754a6945a96feaad3bd</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=6814c8ad836b8754a6945a96feaad311"/>
+</record_update>

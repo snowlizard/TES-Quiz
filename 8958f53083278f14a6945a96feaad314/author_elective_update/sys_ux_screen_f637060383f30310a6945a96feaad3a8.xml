@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>false</active>
+        <app_config display_value="Playbook Builder Config">2ba981dcc31a201098c960bc0eba8f00</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings>[]</event_mappings>
+        <macroponent display_value="TES: Question UI">7e37060383f30310a6945a96feaad3a1</macroponent>
+        <macroponent_config>{
+    "activityDefinitionId": {
+        "type": "JSON_LITERAL",
+        "value": "47e9278fff131010834953bd6338f16e"
+    },
+    "activityLabel": {
+        "type": "JSON_LITERAL",
+        "value": "Sample Activity"
+    },
+    "activityState": {
+        "type": "JSON_LITERAL",
+        "value": "IN_PROGRESS"
+    },
+    "advanced": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "activityType": {
+                "displayValue": "Record",
+                "value": "e12af577871333003058d1a936cb0ba4"
+            },
+            "associatedRecordModCount": 0,
+            "authorizedActions": [
+                "complete",
+                "skip",
+                "restart"
+            ],
+            "contextId": "",
+            "expandOnMountOrChange": false,
+            "filterData": [],
+            "formApi": {
+                "dispatchDeclarativeAction": null,
+                "formFieldsRequired": false,
+                "modalDeclarativeAction": null,
+                "requestReload": "",
+                "requestSubmitAction": "",
+                "requestValidation": "",
+                "visible": true
+            },
+            "inUIBuilder": true,
+            "loading": false,
+            "processedOn": 0,
+            "userSession": {},
+            "workspaceConfigId": ""
+        }
+    },
+    "assignedTo": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "avatar": "58e13b44c3222010ae17dd981840ddd3.iix?t=small",
+            "displayValue": "Adela Cervantsz",
+            "value": "0a826bf03710200044e0bfc8bcbe5d7a"
+        }
+    },
+    "associatedRecord": {
+        "type": "JSON_LITERAL",
+        "value": "-1"
+    },
+    "associatedTable": {
+        "type": "JSON_LITERAL",
+        "value": "x_842748_tes_lore_questionnaire"
+    },
+    "configProperties": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "expandFirstPrioritizedCard": true,
+            "filterFields": "assigned_to",
+            "maxFormFieldsOnCard": 15,
+            "pendingActivityDisplay": "SHOW_ALL",
+            "showActivityState": true,
+            "showAutomatedManualIndicator": true,
+            "slaConfiguration": ""
+        }
+    },
+    "experienceProperties": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "u_associated_record": {
+                "displayValue": "",
+                "elementData": {
+                    "reference": "x_842748_tes_lore_questionnaire",
+                    "type": "reference"
+                },
+                "value": ""
+            }
+        }
+    },
+    "fillContainer": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "laneContext": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "contextId": "",
+            "name": "",
+            "order": 0,
+            "state": {
+                "displayValue": "In Progress",
+                "value": "IN_PROGRESS"
+            },
+            "title": ""
+        }
+    },
+    "parentRecord": {
+        "type": "JSON_LITERAL",
+        "value": "-1"
+    },
+    "parentTable": {
+        "type": "JSON_LITERAL",
+        "value": "interaction"
+    },
+    "playbookContext": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "contextId": "b0f9599e5a613010021c69334198ef8a",
+            "state": {
+                "displayValue": "In Progress",
+                "value": "IN_PROGRESS"
+            }
+        }
+    },
+    "playbookExperienceId": {
+        "type": "JSON_LITERAL",
+        "value": "98e09a560f2200102920c912d4767e1a"
+    },
+    "prioritized": {
+        "type": "JSON_LITERAL",
+        "value": false
+    }
+}</macroponent_config>
+        <name>TES: Question UI</name>
+        <order>0</order>
+        <parent_macroponent display_value="Playbook App Shell">64f1d8fbc3ca201098c960bc0eba8fe3</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Global Activity UIs">89ddbb5ac3113010948404186e40dd1d</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 16:40:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f637060383f30310a6945a96feaad3a8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TES: Question UI</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_ux_screen_f637060383f30310a6945a96feaad3a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:07:26</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=f637060383f30310a6945a96feaad3a8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_ux_screen_f637060383f30310a6945a96feaad3a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>false</active><app_config display_value="Playbook Builder Config">2ba981dcc31a201098c960bc0eba8f00</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><disable_interoperable>false</disable_interoperable><event_mappings>[]</event_mappings><macroponent display_value="TES: Question UI">7e37060383f30310a6945a96feaad3a1</macroponent><macroponent_config>{
+    "activityDefinitionId": {
+        "type": "JSON_LITERAL",
+        "value": "47e9278fff131010834953bd6338f16e"
+    },
+    "activityLabel": {
+        "type": "JSON_LITERAL",
+        "value": "Sample Activity"
+    },
+    "activityState": {
+        "type": "JSON_LITERAL",
+        "value": "IN_PROGRESS"
+    },
+    "advanced": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "activityType": {
+                "displayValue": "Record",
+                "value": "e12af577871333003058d1a936cb0ba4"
+            },
+            "associatedRecordModCount": 0,
+            "authorizedActions": [
+                "complete",
+                "skip",
+                "restart"
+            ],
+            "contextId": "",
+            "expandOnMountOrChange": false,
+            "filterData": [],
+            "formApi": {
+                "dispatchDeclarativeAction": null,
+                "formFieldsRequired": false,
+                "modalDeclarativeAction": null,
+                "requestReload": "",
+                "requestSubmitAction": "",
+                "requestValidation": "",
+                "visible": true
+            },
+            "inUIBuilder": true,
+            "loading": false,
+            "processedOn": 0,
+            "userSession": {},
+            "workspaceConfigId": ""
+        }
+    },
+    "assignedTo": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "avatar": "58e13b44c3222010ae17dd981840ddd3.iix?t=small",
+            "displayValue": "Adela Cervantsz",
+            "value": "0a826bf03710200044e0bfc8bcbe5d7a"
+        }
+    },
+    "associatedRecord": {
+        "type": "JSON_LITERAL",
+        "value": "-1"
+    },
+    "associatedTable": {
+        "type": "JSON_LITERAL",
+        "value": "x_842748_tes_lore_questionnaire"
+    },
+    "configProperties": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "expandFirstPrioritizedCard": true,
+            "filterFields": "assigned_to",
+            "maxFormFieldsOnCard": 15,
+            "pendingActivityDisplay": "SHOW_ALL",
+            "showActivityState": true,
+            "showAutomatedManualIndicator": true,
+            "slaConfiguration": ""
+        }
+    },
+    "experienceProperties": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "u_associated_record": {
+                "displayValue": "",
+                "elementData": {
+                    "reference": "x_842748_tes_lore_questionnaire",
+                    "type": "reference"
+                },
+                "value": ""
+            }
+        }
+    },
+    "fillContainer": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "laneContext": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "contextId": "",
+            "name": "",
+            "order": 0,
+            "state": {
+                "displayValue": "In Progress",
+                "value": "IN_PROGRESS"
+            },
+            "title": ""
+        }
+    },
+    "parentRecord": {
+        "type": "JSON_LITERAL",
+        "value": "-1"
+    },
+    "parentTable": {
+        "type": "JSON_LITERAL",
+        "value": "interaction"
+    },
+    "playbookContext": {
+        "type": "JSON_LITERAL",
+        "value": {
+            "contextId": "b0f9599e5a613010021c69334198ef8a",
+            "state": {
+                "displayValue": "In Progress",
+                "value": "IN_PROGRESS"
+            }
+        }
+    },
+    "playbookExperienceId": {
+        "type": "JSON_LITERAL",
+        "value": "98e09a560f2200102920c912d4767e1a"
+    },
+    "prioritized": {
+        "type": "JSON_LITERAL",
+        "value": false
+    }
+}</macroponent_config><name>TES: Question UI</name><order>0</order><parent_macroponent display_value="Playbook App Shell">64f1d8fbc3ca201098c960bc0eba8fe3</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Global Activity UIs">89ddbb5ac3113010948404186e40dd1d</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-12 16:40:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f637060383f30310a6945a96feaad3a8</sys_id><sys_mod_count>2</sys_mod_count><sys_name>TES: Question UI</sys_name><sys_overrides/><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_ux_screen_f637060383f30310a6945a96feaad3a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-12 17:07:26</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=f637060383f30310a6945a96feaad3a8"/></record_update>]]></payload>
+        <payload_hash>-1312264248</payload_hash>
+        <record_name>TES: Question UI</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:07:26</sys_created_on>
+        <sys_id>676d060783370310a6945a96feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a131155d9b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:07:26</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>276d0607c13703101b997572cefcda79</update_guid>
+        <update_guid_history>276d0607c13703101b997572cefcda79:-1312264248,a05a82c79df303105b6557065a624b9b:-1788252347,fe37060394f30310f6fc837beb5a2eac:2008215623</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:11:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>3b3530a8451f40f9b96e767a5c1d6cc9</sys_id>
+        <sys_metadata>f637060383f30310a6945a96feaad3a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TES: Question UI</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_f637060383f30310a6945a96feaad3a8</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_f637060383f30310a6945a96feaad3a8">676d060783370310a6945a96feaad37a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:11:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

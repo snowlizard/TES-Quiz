@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="question_0e6cce8d0850938538274f9264aaaa0e" table="var__m_sys_flow_data_var_6d1eb865833b4b18a6945a96feaad35b" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>question_0e6cce8d0850938538274f9264aaaa0e</element>
+            <name>var__m_sys_flow_data_var_6d1eb865833b4b18a6945a96feaad35b</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 19:29:55</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>question_0e6cce8d0850938538274f9264aaaa0e</sys_name>
+            <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_flow_data_var_6d1eb865833b4b18a6945a96feaad35b_question_0e6cce8d0850938538274f9264aaaa0e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 19:29:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_0e6cce8d0850938538274f9264aaaa0e</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_flow_data_var_6d1eb865833b4b18a6945a96feaad35b</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 19:29:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 19:29:55</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_0e6cce8d0850938538274f9264aaaa0e</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_flow_data_var_6d1eb865833b4b18a6945a96feaad35b</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 19:29:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 19:29:55</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

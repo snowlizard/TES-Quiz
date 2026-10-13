@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=567000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>tes_question_approval_flow</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛TES: Question Record","reference":"x_842748_tes_lore_tes_question","reference_display":"TES: Question","type":"reference","base_type":"reference","usedInstances":{"102272c0-9f83-468f-b9dd-e02a35cac799":["record"],"d5ee31a8-7dce-4887-926c-f19784335a34":["record"],"d910224a-8a7c-4c45-9017-4253b8f6f79f":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.book.approval_group","label":"Trigger - Record Created or Updated➛TES: Question Record➛Game➛Approval group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_842748_tes_lore_game","column_name":"approval_group","usedInstances":{"102272c0-9f83-468f-b9dd-e02a35cac799":["approval_conditions"]}},{"name":"102272c0-9f83-468f-b9dd-e02a35cac799.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"b87a3753-1dac-47e4-8c1e-03401737473e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>8906e7df833b0710a6945a96feaad321</master_snapshot>
+        <master_snapshot_digest/>
+        <name>TES: Question approval flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>b9062bdf833b0710a6945a96feaad345</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:03:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ed3e793833b0710a6945a96feaad3cd</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>TES: Question approval flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_hub_flow_9ed3e793833b0710a6945a96feaad3cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:13:00</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>5e066bdf833b0710a6945a96feaad392</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_842748_tes_lore_tes_question">state=In review<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="In review"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:13:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b9062bdf833b0710a6945a96feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:13:00</sys_updated_on>
+        <table>x_842748_tes_lore_tes_question</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>9ed3e793833b0710a6945a96feaad3cd</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:13:00</sys_created_on>
+        <sys_id>75062bdf833b0710a6945a96feaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:13:00</sys_updated_on>
+        <trigger display_value="">b9062bdf833b0710a6945a96feaad345</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9ed3e793833b0710a6945a96feaad3cd^sys_idNOT IN75062bdf833b0710a6945a96feaad347"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9ed3e793833b0710a6945a96feaad3cd^sys_idNOT INaad3e793833b0710a6945a96feaad3d2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9ed3e793833b0710a6945a96feaad3cd</id>
+        <name>TES: Question approval flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:03:30</sys_created_on>
+        <sys_id>aad3e793833b0710a6945a96feaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:03:30</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=aad3e793833b0710a6945a96feaad3d2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9ed3e793833b0710a6945a96feaad3cd^sys_idNOT IN8274ab97833b0710a6945a96feaad3f1,c674eb97833b0710a6945a96feaad35c,d274eb97833b0710a6945a96feaad368"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</model>
+        <model_id>9ed3e793833b0710a6945a96feaad3cd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9ed3e793833b0710a6945a96feaad3cd</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:06:12</sys_created_on>
+        <sys_id>8274ab97833b0710a6945a96feaad3f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8274ab97833b0710a6945a96feaad3f1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</model>
+        <model_id>9ed3e793833b0710a6945a96feaad3cd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9ed3e793833b0710a6945a96feaad3cd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:06:12</sys_created_on>
+        <sys_id>c674eb97833b0710a6945a96feaad35c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c674eb97833b0710a6945a96feaad35c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</model>
+        <model_id>9ed3e793833b0710a6945a96feaad3cd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9ed3e793833b0710a6945a96feaad3cd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:06:12</sys_created_on>
+        <sys_id>d274eb97833b0710a6945a96feaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:06:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d274eb97833b0710a6945a96feaad368"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=9ed3e793833b0710a6945a96feaad3cd^sys_idNOT IN62742f97833b0710a6945a96feaad35d"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:06:14</sys_created_on>
+        <sys_id>62742f97833b0710a6945a96feaad35d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:55</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9ed3e793833b0710a6945a96feaad3cd^sys_idNOT IN58656793833b0710a6945a96feaad3aa,5fa52b5f833b0710a6945a96feaad386,c9f523df833b0710a6945a96feaad32b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:10:11</sys_created_on>
+        <sys_id>58656793833b0710a6945a96feaad3aa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:36:09</sys_updated_on>
+        <ui_id>102272c0-9f83-468f-b9dd-e02a35cac799</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YTXPbNhD9KxqcZZUURYrSzWPVnXTaZGo5uVgeDgiAMlKIZADSsaLRf+8SAD8i2YrcygfXuXiMxS749vE9gNDNBnGKpmgcJkM2mQyd2HUcz3FCnzihx2JvHIw9TBzURyleMciUjGSSwvgei7IKbDYXkuGC0V4mex9zWv0buQNSSsnSYruFVMpVLvD6k62ACLnjgsI8mt7c9lGOJSxeMImmm52pY9EJHDMBqVc1vF24xTqvxjQj5QpwRbwO/mErZ3am924GM1BUwXH6iD0ULKUMcCRYKNZHK5xCk5lco2khSwhA+/RDKtZNxh1PC9PnCj8o/g0e7A2rvIRBY8Ry0Awjy48JJzNc4DmsTIpSNnRlnDBlKKEswaUoLroxk/AhL3iWmpICx6KuzkS5St8bQlCzQOd1lApAsLzqs0Ju2krmd9nXqxrkJU81I7ZFkREsmhEuCsnjsqjgbBATTFO8wnnO02WUy+ye62KAshosBQwGici+wjMVX6YDTCrcA2AVDy4hPtPhT1jyqok/YRko3vaRWqsLgZVqWwEOoy9lhcQ0ZluINAuGgqqOSJ4X5/CUe2Yxb/tW+TE5qC3SSsks1wr/IQpHw/EojKDtSGSS6X++lEzpt7An++tf59PeX+308zxwBM7aA9cW6A5u6wA9jPTc9wbQZb33ZsLq3z2sfxtpDWCU84j+Q+cV6d+29eoN8CPts1Hg+fBnnHiOO3SdkAVhSCYOJmEQ+COv1RAggB6wiOBVK63e+5a9/7q9HwGjlva5xdG7qnE8CdDKXcGLSZc7Up/XQSvz4TNl/vQ+7wZvSeglv95h2UT2eH4ZR1SP+5hy2HLfVToKhnEwcUJ6RhMnPhuFnn+GCXPOWOD6zKcB8V3vBVzkuId2Zho+ItKEM0FPa6IjUOyZ6NLCeAqetZAePnZi6PqdE+N0Vgod5zV56S19NJGDYmOdg+NzVsr0ZRR/BIha8b8bFLuC3wX3b/Tu/dT7/1/vI/+g1Dof280eSrKU8gqx6qje7LxMXbHPjBTqPF3/dnP4/jyIs+zvQbPqUmZlvt3e7tvnlEs/z4dHkNPczkvB1I/Isi5sv+hsUdeJ7XegnbRuHJ3qvv7KzPhWbizkoNaSSastWgJBIPjuL1ULZGAv0HSB0ixlC9RfoCorqsSlw5AB4JoJHdtszbiU2Ja7nWFbS/Fa6UxF7hgFZerod5FIW8HGT/Hb2BGM1O6blaw3M5Tsk1Rfl2qchhW+dwbObYJe6Zdr3j0L/ZOdhaOf5jvF5SiqN9HqoIO974SOvP0H+qwadTsWAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=58656793833b0710a6945a96feaad3aa"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>b87a3753-1dac-47e4-8c1e-03401737473e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:11:28</sys_created_on>
+        <sys_id>5fa52b5f833b0710a6945a96feaad386</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:36:09</sys_updated_on>
+        <ui_id>d5ee31a8-7dce-4887-926c-f19784335a34</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy07bQBT9FWvWaWQnAUK6qkiRKlFogbKh1Bp7rslI4wfzCKSR/713HnYiQBAkNqhezdzHzDnH99jXa8IZmZEJsDg5TPbzcTIej+J4NJ0k2f44S0ZsTAESMiAVLQErJeS1ZLhfUmFsYL0+kkA1sKiW0a+G2WWaDHMjJVS6bbGUcdUIuroKHRjJF1wwzJPZ9c2ANFTi4Rokma0fpXZFJ2gGAkvPO3iP4epVY/eszk2JuFLeBU9C5zxkom9zzGCThZPEAwIPGioGCKSgQsGAlLRClrVckZmWBgPIn51VYtVXLHilPdGSPij+F2+exLauAGSWBxH6bRoE8uFiTjW9wJNzbWSvV81zUF4TBgU1Qh9tx3zBWaN5XfkWTTPRddfClNWpV4T0B2y9D6MQBDSWp0XuaRUXi/r+vAN5zCsnSaAo6pyKfke1ljwz2sJZExDgNC5p0/DqNm1kveSuGaGUw1uBm2Eh6nu8U/Hbakhzi3uIqtLhMcbnLnxFJbckvuMx2NwOiFqpI0GV2lBBDdM7Y5F4YoFC6lRwEqRuEmxzLnmjv+BVSwjA20GY/2zvpQnLDzcDtXXmxgMP6XQyOphMUxQgFbUEt7gzoNz7eOKAy68Xs+jnJv02O+wAtrPDpRuC58EHRzyJnWz3Rqc+Efyw925+mH4kPwQaH94Qr9kgHr34od2aJDf5assCSuOH/7eJ4zEr2Cd/CbA/PvLUAa+Vv80RO+DuHHHMQTD1DJHODlAiTg2pJ/bIEiEZXYVk/5t4N18k+7F7PpA7/oO/hafoYxazG1+3eKEMr8N3UkV2qEcHP0wmuFoA89vPCEDRJbBe17Ztb/4BYuN8cpAJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5fa52b5f833b0710a6945a96feaad386"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>17c06d3c-bf6b-4b12-8e22-284809f51538</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:41</sys_created_on>
+        <sys_id>c9f523df833b0710a6945a96feaad32b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:36:09</sys_updated_on>
+        <ui_id>d910224a-8a7c-4c45-9017-4253b8f6f79f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5GfsyppCpTuaWqHNImBBowXxiI3vgFLzge2U+iq/HeuP5JWFEGReKmWJ/t+2Oec3JPcrAhnZEJGwKL4OD7MkjhJhlE0HI/i+WEyj4csoQAxCUlJC8BKCVklGe4XVDQmsFpNJVANLKhk8LtmZpnGg6yREkrdtljKuKoFXV77Doxk91wwzJPJzW1IairxcA2STFYvUruiE3QOAksvOngv4eplbfasypoCcaW8C576zpnPBD9mmMEmAyeOQgJPGkoGCCSnQkFICloiy0ouyUTLBgPIn52XYtlX3PNSO6IFfVL8H948ikxdDsgs8yL029QL5ML5jGp6iSdnupG9XhXPQDlNGOS0EXq6GXMF57XmVelaNJ2LrrsSTVGeOUVIf8DG+2gUgoDa8DTIHa388r56vOhAnvDSSuIpiiqjot9RrSWfN9rAWREQYDUuaF3z8i6tZbXgthmhFIM7gZtBLqpHvFPxu3JAM4N7gKrSwQnGZzZ8TSU3JH7iMdjchkQt1VRQpdZUUMP0oTFIHDFPIbUqWAlSOwmmOZO81t/wqgV44G3o539+8NaEZcfrgdo4c+2Bp3Q8Gh6NxikKkIpKgl08NKDs+9hywNX3y0nwa53+mB12ANvZ4coOwevgvSO2YqebvcGZS3g/HHyaH8b75AdPY+8N8Z4NouGbH9qNSbKTrzYsoDR++P80UZSwnH1xlwD76yLbDniv/GOO2AF354gTDoKpV4h0doACcWpIHbEXlvDJ4Non+9/Ep/kiPozss0fu+A/+Fo6iixnMdnzt4o0yvA7fSRmYoR4ezSTNtVt+xcsVXQDrNW3b9vYZmiFgC4wJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c9f523df833b0710a6945a96feaad32b"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9ed3e793833b0710a6945a96feaad3cd^sys_idNOT IN9e95ef1f833b0710a6945a96feaad367,ecf527df83f70710a6945a96feaad3a8"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ac06a7df833b0710a6945a96feaad37e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:11:08</sys_created_on>
+        <sys_id>9e95ef1f833b0710a6945a96feaad367</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:56</sys_updated_on>
+        <ui_id>b87a3753-1dac-47e4-8c1e-03401737473e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4POjiHbcdrkVmwoMGBbgbXoZSsMWpITYbLkSXLSLMh/H+WPNFgTLBh63M16FMnHp0d4R0zrm9a7B3PjnFxqsvj2FBGpA4bfOyI5WZCKQpXMWcKydJallKbX06ScZWWS8gwEZCQiGmqBN5nRXHppdNEBEVmDakMAmsaateAIcekaBdvH1xG2kopbMbBowGINLyxZ7P4I+W0jCgWlUFjg3lupl5h+Kdcx8f1I9t2nDjk/ReiHuBs7GcsDrYRGRDx7oTnSX1SgnIhIDZqDN3Z7QKwAfqfVC7CS2mM5Ei4/O/kLa6d5Hi5WAmdkog8ejsUgWQ+zlZFM3DWBYI94KNWQw4xqa/2lnyOILSpolR/FRqR1WE80gXRgMVCq7ldm83VseCt1N+AQVIaBOpzAowxl64ULDyOUqLFQUeM7ojhFeEzZJSOXOl4qPMSVMhtsGhwWAwvEY9QI4lvEP3TwI1gZpviMZTC5p1mCk6zo3IjlvMUR9p0sxc82EOoHHEYpejXwgmNWNv4G+6zFwHofDVaeQ17lCc1P22M6O2GCIxfvdglN06uU0cm8us4m09l1NSnnnE8ETSHLGbCr+TzuLQ2qcB682O+/t5Rm/PwKvFXZt9ifCwR6tT+nRTuzNOlfliY884U7Qyn9vzTHSyNd0Zt/mK1r/s878xSM33dwvW+4YNIhkYeAfRz/EiGwRQNIdgxtjP0RRnjB9r8B+FqGF28GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2c06a7df833b0710a6945a96feaad38f</block>
+        <comment/>
+        <connected_to>b87a3753-1dac-47e4-8c1e-03401737473e</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:38</sys_created_on>
+        <sys_id>ecf527df83f70710a6945a96feaad3a8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:56</sys_updated_on>
+        <ui_id>17c06d3c-bf6b-4b12-8e22-284809f51538</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9ed3e793833b0710a6945a96feaad3cd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:06:12</sys_created_on>
+        <sys_id>1a74eb97833b0710a6945a96feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:06:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9ed3e793833b0710a6945a96feaad3cd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:06:12</sys_created_on>
+        <sys_id>8a74eb97833b0710a6945a96feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:06:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9ed3e793833b0710a6945a96feaad3cd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:06:13</sys_created_on>
+        <sys_id>d274eb97833b0710a6945a96feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:06:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9ed3e793833b0710a6945a96feaad3cd"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>tes_question_approval_flow</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛TES: Question Record","reference":"x_842748_tes_lore_tes_question","reference_display":"TES: Question","type":"reference","base_type":"reference","usedInstances":{"102272c0-9f83-468f-b9dd-e02a35cac799":["record"],"d5ee31a8-7dce-4887-926c-f19784335a34":["record"],"d910224a-8a7c-4c45-9017-4253b8f6f79f":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.book.approval_group","label":"Trigger - Record Created or Updated➛TES: Question Record➛Game➛Approval group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_842748_tes_lore_game","column_name":"approval_group","usedInstances":{"102272c0-9f83-468f-b9dd-e02a35cac799":["approval_conditions"]}},{"name":"102272c0-9f83-468f-b9dd-e02a35cac799.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"b87a3753-1dac-47e4-8c1e-03401737473e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>TES: Question approval flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="TES: Question approval flow">9ed3e793833b0710a6945a96feaad3cd</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8906e7df833b0710a6945a96feaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:57</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8906e7df833b0710a6945a96feaad321"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8906e7df833b0710a6945a96feaad321"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8906e7df833b0710a6945a96feaad321"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8906e7df833b0710a6945a96feaad321^sys_idNOT IN4506e7df833b0710a6945a96feaad330"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8906e7df833b0710a6945a96feaad321</id>
+        <name>TES: Question approval flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:57</sys_created_on>
+        <sys_id>4506e7df833b0710a6945a96feaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4506e7df833b0710a6945a96feaad330"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8906e7df833b0710a6945a96feaad321^sys_idNOT IN4106e7df833b0710a6945a96feaad332,8906e7df833b0710a6945a96feaad390,cd06e7df833b0710a6945a96feaad345"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="TES: Question approval flow">8906e7df833b0710a6945a96feaad321</model>
+        <model_id>8906e7df833b0710a6945a96feaad321</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8906e7df833b0710a6945a96feaad321</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:57</sys_created_on>
+        <sys_id>4106e7df833b0710a6945a96feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4106e7df833b0710a6945a96feaad332"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="TES: Question approval flow">8906e7df833b0710a6945a96feaad321</model>
+        <model_id>8906e7df833b0710a6945a96feaad321</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8906e7df833b0710a6945a96feaad321</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:57</sys_created_on>
+        <sys_id>8906e7df833b0710a6945a96feaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8906e7df833b0710a6945a96feaad390"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="TES: Question approval flow">8906e7df833b0710a6945a96feaad321</model>
+        <model_id>8906e7df833b0710a6945a96feaad321</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8906e7df833b0710a6945a96feaad321</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:57</sys_created_on>
+        <sys_id>cd06e7df833b0710a6945a96feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cd06e7df833b0710a6945a96feaad345"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8906e7df833b0710a6945a96feaad321"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8906e7df833b0710a6945a96feaad321"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8906e7df833b0710a6945a96feaad321^sys_idNOT IN5d06e7df833b0710a6945a96feaad3de"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">8906e7df833b0710a6945a96feaad321</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:58</sys_created_on>
+        <sys_id>5d06e7df833b0710a6945a96feaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:58</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8906e7df833b0710a6945a96feaad321^sys_idNOT IN1106e7df833b0710a6945a96feaad3ce,1106e7df833b0710a6945a96feaad3d0,9506e7df833b0710a6945a96feaad3cf"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">8906e7df833b0710a6945a96feaad321</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:58</sys_created_on>
+        <sys_id>1106e7df833b0710a6945a96feaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:58</sys_updated_on>
+        <ui_id>102272c0-9f83-468f-b9dd-e02a35cac799</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YTXPbNhD9KxqcZZUURYrSzWPVnXTaZGo5uVgeDgiAMlKIZADSsaLRf+8SAD8i2YrcygfXuXiMxS749vE9gNDNBnGKpmgcJkM2mQyd2HUcz3FCnzihx2JvHIw9TBzURyleMciUjGSSwvgei7IKbDYXkuGC0V4mex9zWv0buQNSSsnSYruFVMpVLvD6k62ACLnjgsI8mt7c9lGOJSxeMImmm52pY9EJHDMBqVc1vF24xTqvxjQj5QpwRbwO/mErZ3am924GM1BUwXH6iD0ULKUMcCRYKNZHK5xCk5lco2khSwhA+/RDKtZNxh1PC9PnCj8o/g0e7A2rvIRBY8Ry0Awjy48JJzNc4DmsTIpSNnRlnDBlKKEswaUoLroxk/AhL3iWmpICx6KuzkS5St8bQlCzQOd1lApAsLzqs0Ju2krmd9nXqxrkJU81I7ZFkREsmhEuCsnjsqjgbBATTFO8wnnO02WUy+ye62KAshosBQwGici+wjMVX6YDTCrcA2AVDy4hPtPhT1jyqok/YRko3vaRWqsLgZVqWwEOoy9lhcQ0ZluINAuGgqqOSJ4X5/CUe2Yxb/tW+TE5qC3SSsks1wr/IQpHw/EojKDtSGSS6X++lEzpt7An++tf59PeX+308zxwBM7aA9cW6A5u6wA9jPTc9wbQZb33ZsLq3z2sfxtpDWCU84j+Q+cV6d+29eoN8CPts1Hg+fBnnHiOO3SdkAVhSCYOJmEQ+COv1RAggB6wiOBVK63e+5a9/7q9HwGjlva5xdG7qnE8CdDKXcGLSZc7Up/XQSvz4TNl/vQ+7wZvSeglv95h2UT2eH4ZR1SP+5hy2HLfVToKhnEwcUJ6RhMnPhuFnn+GCXPOWOD6zKcB8V3vBVzkuId2Zho+ItKEM0FPa6IjUOyZ6NLCeAqetZAePnZi6PqdE+N0Vgod5zV56S19NJGDYmOdg+NzVsr0ZRR/BIha8b8bFLuC3wX3b/Tu/dT7/1/vI/+g1Dof280eSrKU8gqx6qje7LxMXbHPjBTqPF3/dnP4/jyIs+zvQbPqUmZlvt3e7tvnlEs/z4dHkNPczkvB1I/Isi5sv+hsUdeJ7XegnbRuHJ3qvv7KzPhWbizkoNaSSastWgJBIPjuL1ULZGAv0HSB0ixlC9RfoCorqsSlw5AB4JoJHdtszbiU2Ja7nWFbS/Fa6UxF7hgFZerod5FIW8HGT/Hb2BGM1O6blaw3M5Tsk1Rfl2qchhW+dwbObYJe6Zdr3j0L/ZOdhaOf5jvF5SiqN9HqoIO974SOvP0H+qwadTsWAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1106e7df833b0710a6945a96feaad3ce"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">8906e7df833b0710a6945a96feaad321</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>17c06d3c-bf6b-4b12-8e22-284809f51538</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:58</sys_created_on>
+        <sys_id>1106e7df833b0710a6945a96feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:58</sys_updated_on>
+        <ui_id>d910224a-8a7c-4c45-9017-4253b8f6f79f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5GfsyppCpTuaWqHNImBBowXxiI3vgFLzge2U+iq/HeuP5JWFEGReKmWJ/t+2Oec3JPcrAhnZEJGwKL4OD7MkjhJhlE0HI/i+WEyj4csoQAxCUlJC8BKCVklGe4XVDQmsFpNJVANLKhk8LtmZpnGg6yREkrdtljKuKoFXV77Doxk91wwzJPJzW1IairxcA2STFYvUruiE3QOAksvOngv4eplbfasypoCcaW8C576zpnPBD9mmMEmAyeOQgJPGkoGCCSnQkFICloiy0ouyUTLBgPIn52XYtlX3PNSO6IFfVL8H948ikxdDsgs8yL029QL5ML5jGp6iSdnupG9XhXPQDlNGOS0EXq6GXMF57XmVelaNJ2LrrsSTVGeOUVIf8DG+2gUgoDa8DTIHa388r56vOhAnvDSSuIpiiqjot9RrSWfN9rAWREQYDUuaF3z8i6tZbXgthmhFIM7gZtBLqpHvFPxu3JAM4N7gKrSwQnGZzZ8TSU3JH7iMdjchkQt1VRQpdZUUMP0oTFIHDFPIbUqWAlSOwmmOZO81t/wqgV44G3o539+8NaEZcfrgdo4c+2Bp3Q8Gh6NxikKkIpKgl08NKDs+9hywNX3y0nwa53+mB12ANvZ4coOwevgvSO2YqebvcGZS3g/HHyaH8b75AdPY+8N8Z4NouGbH9qNSbKTrzYsoDR++P80UZSwnH1xlwD76yLbDniv/GOO2AF354gTDoKpV4h0doACcWpIHbEXlvDJ4Non+9/Ep/kiPozss0fu+A/+Fo6iixnMdnzt4o0yvA7fSRmYoR4ezSTNtVt+xcsVXQDrNW3b9vYZmiFgC4wJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1106e7df833b0710a6945a96feaad3d0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">8906e7df833b0710a6945a96feaad321</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>b87a3753-1dac-47e4-8c1e-03401737473e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:58</sys_created_on>
+        <sys_id>9506e7df833b0710a6945a96feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:58</sys_updated_on>
+        <ui_id>d5ee31a8-7dce-4887-926c-f19784335a34</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy07bQBT9FWvWaWQnAUK6qkiRKlFogbKh1Bp7rslI4wfzCKSR/713HnYiQBAkNqhezdzHzDnH99jXa8IZmZEJsDg5TPbzcTIej+J4NJ0k2f44S0ZsTAESMiAVLQErJeS1ZLhfUmFsYL0+kkA1sKiW0a+G2WWaDHMjJVS6bbGUcdUIuroKHRjJF1wwzJPZ9c2ANFTi4Rokma0fpXZFJ2gGAkvPO3iP4epVY/eszk2JuFLeBU9C5zxkom9zzGCThZPEAwIPGioGCKSgQsGAlLRClrVckZmWBgPIn51VYtVXLHilPdGSPij+F2+exLauAGSWBxH6bRoE8uFiTjW9wJNzbWSvV81zUF4TBgU1Qh9tx3zBWaN5XfkWTTPRddfClNWpV4T0B2y9D6MQBDSWp0XuaRUXi/r+vAN5zCsnSaAo6pyKfke1ljwz2sJZExDgNC5p0/DqNm1kveSuGaGUw1uBm2Eh6nu8U/Hbakhzi3uIqtLhMcbnLnxFJbckvuMx2NwOiFqpI0GV2lBBDdM7Y5F4YoFC6lRwEqRuEmxzLnmjv+BVSwjA20GY/2zvpQnLDzcDtXXmxgMP6XQyOphMUxQgFbUEt7gzoNz7eOKAy68Xs+jnJv02O+wAtrPDpRuC58EHRzyJnWz3Rqc+Efyw925+mH4kPwQaH94Qr9kgHr34od2aJDf5assCSuOH/7eJ4zEr2Cd/CbA/PvLUAa+Vv80RO+DuHHHMQTD1DJHODlAiTg2pJ/bIEiEZXYVk/5t4N18k+7F7PpA7/oO/hafoYxazG1+3eKEMr8N3UkV2qEcHP0wmuFoA89vPCEDRJbBe17Ztb/4BYuN8cpAJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9506e7df833b0710a6945a96feaad3cf"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8906e7df833b0710a6945a96feaad321"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8906e7df833b0710a6945a96feaad321^sys_idNOT IN1d06e7df833b0710a6945a96feaad3c9,d106e7df833b0710a6945a96feaad3cc"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ac06a7df833b0710a6945a96feaad37e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">8906e7df833b0710a6945a96feaad321</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:58</sys_created_on>
+        <sys_id>1d06e7df833b0710a6945a96feaad3c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:58</sys_updated_on>
+        <ui_id>b87a3753-1dac-47e4-8c1e-03401737473e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWaAky7F8CxwEKJA2QBPk0gbCiqRiopSoipQdV/C/d6mHbSQO6qA59mbOLpczox24JbqxVWPNvb40Rj6VZPH90SOydBj+bonkZEFyCnmQsIBF4SwKKQ3n0yCbRVkQ8ggERMQjJRQCO5kuubRSl2kHeGQNqnEFqKparwVHiEtTKdg+vK6wlVS8FgOLCmqcYUVNFu2L0rmsFGRCYetypPXppkPe5mu3lcONrWX5NJxvhil3I6hr7lgF1CPi2YqSI/tFDsoIjxRQcrC63u6RWgC/LdUBWMnS4jjimp+N/I0PhnHsGnOBEpnoi/tjOjjWw/kVWEAqDbNNPbSylZZMmN4cLnJolF0eY33DbeWk9lcsZGq8rVVTlF97R8h+wPiBEGkMkhCVU+qoDzryu5XefBtZXsuyc2UoKs1A7U9g0bussY5PS4QSBQ5KC/z26GjqFkB2l5FL4T8pPPi50ht81G2lD8wR99FY8K8Rv+rgB6ilU/EFx+DlnmYGRrK022AchzYJsvOI2ZqlAmMOItHd9FfjKPaSB3Fp74+7wmpZ2Ut8eS0GHTtvCEQCcR4HND69etPZiQU7ykLbBjQML0JGJ0k+jybT2TyfZAnnE0FDiGIG7CJJ/D4YoFJjwYrd7kdDacTfDtJHjX1fCs+w4lUKT9vznuiFf4me++5nJo9S+j96/xw9adI+MIO27vEPTN6ji0//5t5rJg1Su3fY5/EfyxW2uFySHUMbXf90og7Y7g/W1N5k+wYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2c06a7df833b0710a6945a96feaad38f</block>
+        <comment/>
+        <connected_to>b87a3753-1dac-47e4-8c1e-03401737473e</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="TES: Question approval flow">8906e7df833b0710a6945a96feaad321</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:58</sys_created_on>
+        <sys_id>d106e7df833b0710a6945a96feaad3cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:58</sys_updated_on>
+        <ui_id>17c06d3c-bf6b-4b12-8e22-284809f51538</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8906e7df833b0710a6945a96feaad321"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8906e7df833b0710a6945a96feaad321"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8906e7df833b0710a6945a96feaad321</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:58</sys_created_on>
+        <sys_id>0106e7df833b0710a6945a96feaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8906e7df833b0710a6945a96feaad321</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:57</sys_created_on>
+        <sys_id>0506e7df833b0710a6945a96feaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8906e7df833b0710a6945a96feaad321</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:12:57</sys_created_on>
+        <sys_id>cd06e7df833b0710a6945a96feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:12:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8906e7df833b0710a6945a96feaad321"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8906e7df833b0710a6945a96feaad321"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>9ed3e793833b0710a6945a96feaad3cd</sys_id>
+        <latest_snapshot>8906e7df833b0710a6945a96feaad321</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9ed3e793833b0710a6945a96feaad3cd^sys_idNOT IN79062bdf833b0710a6945a96feaad348"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"79062bdf833b0710a6945a96feaad348","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>9ed3e793833b0710a6945a96feaad3cd</plan_id>
+        <snapshot>ac5b2fdf837b0710a6945a96feaad3bc</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 18:13:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79062bdf833b0710a6945a96feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 18:13:00</sys_updated_on>
+        <trigger display_value="">b9062bdf833b0710a6945a96feaad345</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9ed3e793833b0710a6945a96feaad3cd"/>
+</record_update>

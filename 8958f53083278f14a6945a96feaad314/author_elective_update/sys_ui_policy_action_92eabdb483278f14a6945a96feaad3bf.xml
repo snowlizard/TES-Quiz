@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>hidden</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:44:39</sys_created_on>
+        <sys_id>92eabdb483278f14a6945a96feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hidden</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_ui_policy_action_92eabdb483278f14a6945a96feaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:44:39</sys_updated_on>
+        <table>x_842748_tes_lore_tes_question</table>
+        <ui_policy display_value="[TES] Hide unnecessary fields">577a31b483278f14a6945a96feaad301</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=92eabdb483278f14a6945a96feaad3bf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_ui_policy_action_92eabdb483278f14a6945a96feaad3bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>hidden</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:44:39</sys_created_on><sys_id>92eabdb483278f14a6945a96feaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>hidden</sys_name><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_ui_policy_action_92eabdb483278f14a6945a96feaad3bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:44:39</sys_updated_on><table>x_842748_tes_lore_tes_question</table><ui_policy display_value="[TES] Hide unnecessary fields">577a31b483278f14a6945a96feaad301</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=92eabdb483278f14a6945a96feaad3bf"/></record_update>]]></payload>
+        <payload_hash>-255710551</payload_hash>
+        <record_name>hidden</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:44:39</sys_created_on>
+        <sys_id>ecfabdb483278f14a6945a96feaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0cccb70e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:44:39</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>acfabdb42f278f14965d8baf636ed6e2</update_guid>
+        <update_guid_history>acfabdb42f278f14965d8baf636ed6e2:-255710551</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 05:43:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1261bf2cd23f457a9ae2eb63b45dade4</sys_id>
+        <sys_metadata>92eabdb483278f14a6945a96feaad3bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hidden</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="">577a31b483278f14a6945a96feaad301</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_92eabdb483278f14a6945a96feaad3bf</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_92eabdb483278f14a6945a96feaad3bf">ecfabdb483278f14a6945a96feaad3e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 05:43:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

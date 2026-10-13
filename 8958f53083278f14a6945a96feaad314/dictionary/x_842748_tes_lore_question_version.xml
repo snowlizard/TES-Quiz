@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d69aa64283e3cf54a6945a96feaad302" label="Question version" max_length="40" name="x_842748_tes_lore_question_version" type="collection">
+        <element label="Modified by" max_length="32" name="modified_by" reference="sys_user" type="reference"/>
+        <element label="Question" max_length="32" name="question" reference="x_842748_tes_lore_tes_question" type="reference"/>
+        <element default="1" display="true" label="Version" max_length="40" name="version" type="integer"/>
+        <element label="Modified on" max_length="40" name="modified_on" type="glide_date_time"/>
+        <index name="index">
+            <element name="modified_by"/>
+        </index>
+        <index name="index2">
+            <element name="question"/>
+        </index>
+    </element>
+</database>

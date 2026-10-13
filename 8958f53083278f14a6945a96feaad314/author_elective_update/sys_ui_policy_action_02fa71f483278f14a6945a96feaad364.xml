@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>disable_initial_slot_fill</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:45:03</sys_created_on>
+        <sys_id>02fa71f483278f14a6945a96feaad364</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>disable_initial_slot_fill</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_ui_policy_action_02fa71f483278f14a6945a96feaad364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:45:11</sys_updated_on>
+        <table>x_842748_tes_lore_tes_question</table>
+        <ui_policy display_value="[TES] Hide unnecessary fields">577a31b483278f14a6945a96feaad301</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=02fa71f483278f14a6945a96feaad364"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_ui_policy_action_02fa71f483278f14a6945a96feaad364</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>disable_initial_slot_fill</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:45:03</sys_created_on><sys_id>02fa71f483278f14a6945a96feaad364</sys_id><sys_mod_count>1</sys_mod_count><sys_name>disable_initial_slot_fill</sys_name><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_ui_policy_action_02fa71f483278f14a6945a96feaad364</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:45:11</sys_updated_on><table>x_842748_tes_lore_tes_question</table><ui_policy display_value="[TES] Hide unnecessary fields">577a31b483278f14a6945a96feaad301</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=02fa71f483278f14a6945a96feaad364"/></record_update>]]></payload>
+        <payload_hash>-1934206399</payload_hash>
+        <record_name>disable_initial_slot_fill</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:45:11</sys_created_on>
+        <sys_id>141b35f483278f14a6945a96feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0cccbec2f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:45:11</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>d01b35f4ad278f14bfe4fa47476103e3</update_guid>
+        <update_guid_history>d01b35f4ad278f14bfe4fa47476103e3:-1934206399,520bf1f4cc278f14c2b93f4c56b161a0:-1178845726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 05:43:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>354932b237994abc9d3e1a1165c26a51</sys_id>
+        <sys_metadata>02fa71f483278f14a6945a96feaad364</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>disable_initial_slot_fill</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="">577a31b483278f14a6945a96feaad301</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_02fa71f483278f14a6945a96feaad364</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_02fa71f483278f14a6945a96feaad364">141b35f483278f14a6945a96feaad3e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 05:43:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

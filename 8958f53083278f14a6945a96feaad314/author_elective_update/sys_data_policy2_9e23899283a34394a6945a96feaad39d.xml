@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions table="x_842748_tes_lore_tes_question">state=Published^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Published"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_842748_tes_lore_tes_question</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>All fields readonly when published</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 17:32:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e23899283a34394a6945a96feaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All fields readonly when published</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_data_policy2_9e23899283a34394a6945a96feaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 17:32:24</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_data_policy2_9e23899283a34394a6945a96feaad39d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions table="x_842748_tes_lore_tes_question">state=Published^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Published"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_842748_tes_lore_tes_question</model_table><reverse_if_false>true</reverse_if_false><short_description>All fields readonly when published</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-27 17:32:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9e23899283a34394a6945a96feaad39d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All fields readonly when published</sys_name><sys_overrides/><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_data_policy2_9e23899283a34394a6945a96feaad39d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-27 17:32:24</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>747733984</payload_hash>
+        <record_name>All fields readonly when published</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 17:32:24</sys_created_on>
+        <sys_id>c743899283a34394a6945a96feaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0e3ecd54e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 17:32:24</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>074389920fa34394820959c6a05864e8</update_guid>
+        <update_guid_history>074389920fa34394820959c6a05864e8:747733984</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 17:32:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>3f6733a9be5a448aa3597e0273349d64</sys_id>
+        <sys_metadata>9e23899283a34394a6945a96feaad39d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All fields readonly when published</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="TES: Question">0661620e8323cf54a6945a96feaad3aa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_9e23899283a34394a6945a96feaad39d</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_9e23899283a34394a6945a96feaad39d">c743899283a34394a6945a96feaad3e9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 17:32:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

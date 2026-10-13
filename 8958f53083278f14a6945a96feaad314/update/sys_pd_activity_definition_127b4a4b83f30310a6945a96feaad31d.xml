@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value="TES: Questions layout">1e9ec2cb83370310a6945a96feaad387</activity_type>
+        <additional_functionality/>
+        <ai_agent_execution_mode>off</ai_agent_execution_mode>
+        <ai_agent_field_display_preferences>enable_ai_agent=all;ai_agent_objective=all;ai_agent_run_as=all;ai_agent_execution_mode=all;</ai_agent_field_display_preferences>
+        <ai_agent_objective/>
+        <ai_agent_run_as>playbook_user</ai_agent_run_as>
+        <ai_agent_run_with_roles/>
+        <ai_agent_user/>
+        <badge/>
+        <category/>
+        <description/>
+        <enable_ai_agent>off</enable_ai_agent>
+        <experience_display_preferences>u_associated_record=all;associated_table=all;associated_record=all;experience_status_table=advanced;experience_status_record=advanced;tagline=advanced;icon=advanced;title=advanced;description=advanced;pending_title=advanced;pending_description=advanced;record_fields=advanced;footer=advanced;form_view=all;form_fields=all;attachment_source=advanced;attachments_read_only=advanced;show_sla=advanced;show_checklist=advanced;is_automated=advanced;</experience_display_preferences>
+        <input_display_preferences>assigned_to=standard;assignment_group=standard;</input_display_preferences>
+        <inputs/>
+        <label>TES: Questionnaire</label>
+        <name>tes_questionnaire</name>
+        <outputs/>
+        <public_access>false</public_access>
+        <required_roles/>
+        <source>cb18ceef1b230010affd0e55cc4bcbf2</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 16:59:54</sys_created_on>
+        <sys_id>127b4a4b83f30310a6945a96feaad31d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TES: Questionnaire</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_127b4a4b83f30310a6945a96feaad31d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:45:51</sys_updated_on>
+        <system_level>false</system_level>
+        <table>x_842748_tes_lore_questionnaire</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=127b4a4b83f30310a6945a96feaad31d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=127b4a4b83f30310a6945a96feaad31d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>127b4a4b83f30310a6945a96feaad31d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:45:51</sys_created_on>
+        <sys_id>563692c383b70310a6945a96feaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:45:51</sys_updated_on>
+        <value>7f40da1283a38394a6945a96feaad340</value>
+        <variable display_value="Associated record">db9ec6cb83370310a6945a96feaad35d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>127b4a4b83f30310a6945a96feaad31d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:45:51</sys_created_on>
+        <sys_id>de3692c383b70310a6945a96feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:45:51</sys_updated_on>
+        <value>x_842748_tes_lore_questionnaire</value>
+        <variable display_value="Associated table">439e86cb83370310a6945a96feaad3f3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2^id=127b4a4b83f30310a6945a96feaad31d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_cb18ceef1b230010affd0e55cc4bcbf2^id=127b4a4b83f30310a6945a96feaad31d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_pd_activity_type_prop_1e9ec2cb83370310a6945a96feaad387^id=127b4a4b83f30310a6945a96feaad31d"/>
+</record_update>

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <allow_as_nested>true</allow_as_nested>
+        <copied_from/>
+        <copied_from_label/>
+        <data_retention_period_override>6_week</data_retention_period_override>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <evaluate_variant_children_after/>
+        <execution_type>record_driven</execution_type>
+        <label>TES: Questionnaire playbook</label>
+        <launcher_description/>
+        <launcher_inputs/>
+        <launcher_record_form_view/>
+        <launcher_show_record_form>false</launcher_show_record_form>
+        <launcher_template_fields/>
+        <launcher_title/>
+        <name>tes_questionnaire_playbook</name>
+        <now_assist_kb/>
+        <now_assist_prompt/>
+        <permission>{}</permission>
+        <process_type display_value="Standard playbook">52c6d3eeff1be2102c2fffffffffff44</process_type>
+        <public_access>false</public_access>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_once</run_strategy>
+        <run_strategy_on_process_definition>true</run_strategy_on_process_definition>
+        <schema_version>3</schema_version>
+        <snapshot display_value="tes_questionnaire_playbook">9f915e0b83770310a6945a96feaad377</snapshot>
+        <start_non_blocking>true</start_non_blocking>
+        <status>published</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:04:04</sys_created_on>
+        <sys_id>4eacce8f83f30310a6945a96feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TES: Questionnaire playbook</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_pd_process_definition_4eacce8f83f30310a6945a96feaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:43</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=4eacce8f83f30310a6945a96feaad38c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4eacce8f83f30310a6945a96feaad38c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_pd_process_input_4eacce8f83f30310a6945a96feaad38c^id=4eacce8f83f30310a6945a96feaad38c"/>
+    <sys_pd_process_input action="delete_multiple" query="model=4eacce8f83f30310a6945a96feaad38c^sys_idNOT IN1eacc2cf83f30310a6945a96feaad319"/>
+    <sys_pd_process_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.snc.pd.designer.elementmapping.PlaybookInputElementMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Parent record</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parent_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Parent record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="TES: Questionnaire playbook">4eacce8f83f30310a6945a96feaad38c</model>
+        <model_id>4eacce8f83f30310a6945a96feaad38c</model_id>
+        <model_table/>
+        <name>var__m_sys_pd_process_input_4eacce8f83f30310a6945a96feaad38c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="x_842748_tes_lore_questionnaire">x_842748_tes_lore_questionnaire</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_pd_process_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:04:04</sys_created_on>
+        <sys_id>1eacc2cf83f30310a6945a96feaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parent record</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_pd_process_input_1eacc2cf83f30310a6945a96feaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:04:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_pd_process_input>
+    <sys_pd_process_output action="delete_multiple" query="model=4eacce8f83f30310a6945a96feaad38c"/>
+    <sys_pd_lane action="delete_multiple" query="process_definition=4eacce8f83f30310a6945a96feaad38c^sys_idNOT IN906c9968ec0ba399eb8f31a572c3aea2"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Initial review</label>
+        <lane_condition/>
+        <name>new_stage</name>
+        <order>1</order>
+        <permission>{}</permission>
+        <process_definition display_value="TES: Questionnaire playbook">4eacce8f83f30310a6945a96feaad38c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule/>
+        <start_rule_name>immediate</start_rule_name>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:04:12</sys_created_on>
+        <sys_id>906c9968ec0ba399eb8f31a572c3aea2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:05:21</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=906c9968ec0ba399eb8f31a572c3aea2"/>
+    <sys_pd_timer_attributes action="delete_multiple" query="process_definition=4eacce8f83f30310a6945a96feaad38c"/>
+    <sys_pd_activity action="delete_multiple" query="process_definition=4eacce8f83f30310a6945a96feaad38c^sys_idNOT IN373a72decb19a9e586a3376d1f34b34a"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="TES: Questionnaire">127b4a4b83f30310a6945a96feaad31d</activity_definition>
+        <ai_agent_execution_mode>off</ai_agent_execution_mode>
+        <ai_agent_obj_additional_detail/>
+        <ai_agent_objective/>
+        <ai_agent_run_as>playbook_user</ai_agent_run_as>
+        <ai_agent_run_with_roles/>
+        <ai_agent_user/>
+        <condition_to_run/>
+        <conversational_agents/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <enable_ai_agent>false</enable_ai_agent>
+        <inputs/>
+        <label>TES: Questionnaire</label>
+        <lane display_value="Initial review">906c9968ec0ba399eb8f31a572c3aea2</lane>
+        <name>tes_questionnaire</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="TES: Questionnaire playbook">4eacce8f83f30310a6945a96feaad38c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule/>
+        <start_rule_name>immediate</start_rule_name>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>373a72decb19a9e586a3376d1f34b34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=373a72decb19a9e586a3376d1f34b34a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>0091da0b83770310a6945a96feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">7a9e86cb83370310a6945a96feaad367</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>0491da0b83770310a6945a96feaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Attachments read only">b69e46cb83370310a6945a96feaad3e5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>0891da0b83770310a6945a96feaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show SLA">ba9e46cb83370310a6945a96feaad3c3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>0c91da0b83770310a6945a96feaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Pending State Description">c39e86cb83370310a6945a96feaad396</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>0c91da0b83770310a6945a96feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Record fields">529ec2cb83370310a6945a96feaad38d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>3b81da0b83770310a6945a96feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned To">3499c6631b630010affd0e55cc4bcb90</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>4091da0b83770310a6945a96feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">079e86cb83370310a6945a96feaad3b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>4091da0b83770310a6945a96feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show Checklist">6f9e0acb83370310a6945a96feaad311</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>4491da0b83770310a6945a96feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Icon">a79ec6cb83370310a6945a96feaad3d5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>4891da0b83770310a6945a96feaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Title">e29e06cb83370310a6945a96feaad3ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>4c91da0b83770310a6945a96feaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">2a9e46cb83370310a6945a96feaad34e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>7f81da0b83770310a6945a96feaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value>yes</value>
+        <variable display_value="Wait for user input">024026291bbb001094630f28cc4bcb03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>8091da0b83770310a6945a96feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Tagline">179ec6cb83370310a6945a96feaad3a6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>8491da0b83770310a6945a96feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">3e9e86cb83370310a6945a96feaad313</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>8491da0b83770310a6945a96feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Form View">179ec6cb83370310a6945a96feaad33b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>8891da0b83770310a6945a96feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Associated record">db9ec6cb83370310a6945a96feaad35d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>8c91da0b83770310a6945a96feaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Form fields">2b9e0acb83370310a6945a96feaad364</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>c091da0b83770310a6945a96feaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Pending State Title">239e0acb83370310a6945a96feaad335</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>c491da0b83770310a6945a96feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Attachment Source">2a9e46cb83370310a6945a96feaad395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>c891da0b83770310a6945a96feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Associated table">439e86cb83370310a6945a96feaad3f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>cc91da0b83770310a6945a96feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Description">229e46cb83370310a6945a96feaad32d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>373a72decb19a9e586a3376d1f34b34a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:29</sys_created_on>
+        <sys_id>f381da0b83770310a6945a96feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:29</sys_updated_on>
+        <value/>
+        <variable display_value="Assignment Group">4f9fdae51bbb001094630f28cc4bcb66</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2^id=373a72decb19a9e586a3376d1f34b34a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_cb18ceef1b230010affd0e55cc4bcbf2^id=373a72decb19a9e586a3376d1f34b34a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_pd_activity_type_prop_1e9ec2cb83370310a6945a96feaad387^id=373a72decb19a9e586a3376d1f34b34a"/>
+    <sys_pd_activity_action_override action="delete_multiple" query="activity=373a72decb19a9e586a3376d1f34b34a"/>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=4eacce8f83f30310a6945a96feaad38c"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=373a72decb19a9e586a3376d1f34b34a"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=373a72decb19a9e586a3376d1f34b34a"/>
+    <sys_pd_snapshot action="delete_multiple" query="sys_id=9f915e0b83770310a6945a96feaad377^sys_idNOT IN9f915e0b83770310a6945a96feaad377"/>
+    <sys_pd_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <derivatives>{"table":"sys_pd_snapshot","id":"9f915e0b83770310a6945a96feaad377","name":"derivatives","type":"com.snc.pd.model.serialization.DerivativeFetcher"}</derivatives>
+        <name>tes_questionnaire_playbook</name>
+        <process_definition>{"table":"sys_pd_snapshot","id":"9f915e0b83770310a6945a96feaad377","name":"process_definition","type":"com.snc.pd.model.ProcessDefinition"}</process_definition>
+        <process_dependencies>{"table":"sys_pd_snapshot","id":"9f915e0b83770310a6945a96feaad377","name":"process_dependencies","type":"com.snc.pd.model.dependency.InstructionBasedProcessDependenciesCollection"}</process_dependencies>
+        <process_plan>{"table":"sys_pd_snapshot","id":"9f915e0b83770310a6945a96feaad377","name":"process_plan","type":"com.snc.process_flow.engine.ProcessPlan"}</process_plan>
+        <source display_value="TES: Questionnaire playbook">4eacce8f83f30310a6945a96feaad38c</source>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>9f915e0b83770310a6945a96feaad377</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:43</sys_updated_on>
+    </sys_pd_snapshot>
+    <sys_json_chunk action="delete_multiple" query="document_id=9f915e0b83770310a6945a96feaad377"/>
+    <sys_pd_snapshot_chunk action="delete_multiple" query="document_id=9f915e0b83770310a6945a96feaad377^sys_idNOT IN17919e0b83770310a6945a96feaad3b0,93919e0b83770310a6945a96feaad3b1,9f919e0b83770310a6945a96feaad3b1,db919e0b83770310a6945a96feaad3b0"/>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/+2Wy27bMBBFfyUgusxCMvX0zm0cIECQtLEboAgCYUSOYqISqVKS08DIv5fUw4/YjdOiKLroxobJmeHMvceUVkRwMiYeAmMYZRHNqENdB4LY8yEOMgTgNGLklEgo0ETWWCXfGqxqoaQEoTEpc3hKlfpqYnJIMTdB8+lsfPJpO+pkJ0piRcZ3q+7s2AlYHAcRMicFGseYRhl1wQ9HjALCaHO2xMekquEBzZL51jUZDzWi2HXRSf0sDG3/QQC+k7KQB24QuoF/oMa7rsIpAVaLpaifEo6ZkMK2TMayyfPNPPtJHCumRbkbLPFt49jICz7kKc1RDz/a+oluctxfSeqn8tDyErSRc/V8SjTu5zMleTtUUiuzsW6XY4mSo2SiNePermixBCNG704m8tp2RkzL5gwBst503cq+pd5bTHi+7/s+Q0PDdate3/n2aGqJWguO/VYOjWSLxKgv6+RxgTJZO9ZDkEFeoZl0IXLexVVDrSF0wuxh15vKd/emtBFgjRDvu09HXfcc/NShAWVZHND4MEI2/xcB6lL+47OPz1ED/jl8er3WCLmsm8CNuwlCh6dhkLkeujHzDiM01PhFjDZp/1HaR+moEf8cSoPDF9Z4yE80LgU+kl0biCgK5AJq3Iwrth+lNKQQjjgyMznE6EcBUBoG3M2ol1IPXnmM/wxA4o7C1AMvPfxq4PJXH/sv+STkd+h8S2zPrvuKYr/PL7n5fJVcX11+MR8fpuQQyoT8GZDfYOEW6Eejj4K+a1p1YqJUY++Vv8X+/SHdftLynlUvLpa5uhm8OGJgiboQVdVBuXpudepTIO0yprP55GY+eX85Tc4nl7PpxrK+yZc1zPvEEvLGwHbbxX2wUmiUk2xtetmkuWAT87JdVWvJCvGgTRafq+nt6FyrYiahrBZqiw38jqzpgOts08gM8gk3fKEkgz+o56Ju299aOtv/B3Ybs4V6vGnrnCtdrNsZtjdbt/Yu2kmdY2He6Gs8F5jzanfvQpaN1WhFStAWl65XG2Q8LLWyw1/iEvPJ9h1mbWeqHS6K/SjzqRPRURiZa/vFneNZfxs5qT5XVte+7cqcXcAt6s4R2uNypeT7XLGvQj6Qca0bbHNntVX84elafjw7sGwFbmSiJEPy/APJTYRKJA0AAA==</data>
+        <document_id display_value="tes_questionnaire_playbook">9f915e0b83770310a6945a96feaad377</document_id>
+        <field>process_definition</field>
+        <length>1164</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>17919e0b83770310a6945a96feaad3b0</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/5WSMW/DIBCF/wvqmAF85gBvlbp06NSxynAcR2QpxZbtZIn634vV7KZMDE/fe3zioeZlYlnXN5mlJCk8yqqGh3qJtMp+udMyUtnekxrK7Xo9qSsVeeVtvI9bzX7QvKeCRg4BvbCOBCFI9BkMWdcxkFCnhi8FDsh1STiaQEGsRwJwmEyGPkJP6vxzUlTqmm1aPmVrR59Px/Caqvix8PQ9lsuTnXwwRnSMnXMajE5kowYEzgEhoG2b3dSuwrPL5r8uRLI6skto0JnaVTm9ELP47CHDniEMvaWAWYgSeN45h5sr57Crcg67dl/TbbtM//N1zG3z1fLOFl8t3lt8NXzfen4B/fldXFEDAAA=</data>
+        <document_id display_value="tes_questionnaire_playbook">9f915e0b83770310a6945a96feaad377</document_id>
+        <field>process_dependencies</field>
+        <length>368</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>93919e0b83770310a6945a96feaad3b1</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/4VSTW/aQBD9L3v2wYQQMDcKoUUKRAJUDlGFBntsb7Pe2e5HGhTlv3fWGCftpbfdN19v3ps3IQsx1UGpRGhoUEyFR3f8FdB5SVqDtHg0Cs4nomeRCDJOTJ9+JOKkKH/m99t7IpwHHysPs9V+tfkqWqTCLhN1JTXOwcBJKunP39E6bi2mN1mapomQbs/DtoGREpTDRFjMyRYH8HmNdhOKttWFo5fNv9AL2I6HDXrGT+HOzmMjWuAgfb0ldSUDStHvb7Kqd5gHy2y6WDfZQHBYbBFcJCjEZeCetuhCKw4jNbgFeNh5i9D0lWgt2TU6x4tfmXHmfYT7pIIakHrVK+40GFeTj4jIymwwwvQ0GY7H6XCQwl12O4LsrkSAgjEenTN9qasdBZv3U3IyEoulpaZHujSO9FkGLGq/Wlz/F1fW8JPshyGdcQ+S9dNor7kla7ZAD1KxzsKT+RLN359jd7F8eDzEw7CyiqvNdBEDnSOxsqMhJtloUo6G6WR4M56Ug9u/9xvcchOpPVoNavPfS+Te9MKaywKPDRjD617Z8okuyW7RkPWf4ZZgxytEm44N71SwlZ91a1ebU9B+DeYaUOB86+QcQlX73s+8lqqYE7N+ZQ8/jpQ8qEeDFiJzd//Kt+aRPU7f/wDfpgiVcAMAAA==</data>
+        <document_id display_value="tes_questionnaire_playbook">9f915e0b83770310a6945a96feaad377</document_id>
+        <field>process_plan</field>
+        <length>672</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>9f919e0b83770310a6945a96feaad3b1</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <document_id display_value="tes_questionnaire_playbook">9f915e0b83770310a6945a96feaad377</document_id>
+        <field>derivatives</field>
+        <length>2528</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>db919e0b83770310a6945a96feaad3b0</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_input action="delete_multiple" query="model=9f915e0b83770310a6945a96feaad377^sys_idNOT IN93919e0b83770310a6945a96feaad3b6"/>
+    <sys_pd_snapshot_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.snc.pd.designer.elementmapping.PlaybookInputElementMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Parent record</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parent_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Parent record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="tes_questionnaire_playbook">9f915e0b83770310a6945a96feaad377</model>
+        <model_id>9f915e0b83770310a6945a96feaad377</model_id>
+        <model_table/>
+        <name>var__m_sys_pd_snapshot_input_9f915e0b83770310a6945a96feaad377</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="x_842748_tes_lore_questionnaire">x_842748_tes_lore_questionnaire</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_pd_snapshot_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>93919e0b83770310a6945a96feaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parent record</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_pd_snapshot_input_93919e0b83770310a6945a96feaad3b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_pd_snapshot_input>
+    <sys_pd_snapshot_output action="delete_multiple" query="model=9f915e0b83770310a6945a96feaad377"/>
+    <sys_flow_compiled_flow action="delete_multiple" query="sys_id=1b919e0be9770310d33dadd4957156b2^sys_idNOT IN1b919e0be9770310d33dadd4957156b2"/>
+    <sys_flow_compiled_flow action="INSERT_OR_UPDATE">
+        <parent_snapshot_id/>
+        <signature/>
+        <snapshot_id>9f915e0b83770310a6945a96feaad377</snapshot_id>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>1b919e0be9770310d33dadd4957156b2</sys_id>
+    </sys_flow_compiled_flow>
+    <sys_flow_compiled_flow_chunk action="delete_multiple" query="document_id=1b919e0be9770310d33dadd4957156b2^sys_idNOT IN17919e0b83770310a6945a96feaad3b5,93919e0b83770310a6945a96feaad3b4,5b919e0b83770310a6945a96feaad3b3,db919e0b83770310a6945a96feaad3b4"/>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/zWPQW7CQAxF7+J1FtAkNMmuFUJCaotUKnWJXMYDFsZOZyatEOLunUDZfr/3bZ/Bi/3OKSELdGdI1j+LbQ8fp56gg8XL6hMKsMA71qV7UjcOYiYvxdVcb+0KNm3d+LqcNOXDY+OnFc7aqsZ25gnRldMql7AmCoryhsfRSBQ33wPFxKaKHGjTC56+zA6Qu+2HQmBHr9j3rDvodBApIG9jcotgx3uyxzjHhOsUCHPoUSJlDkWy9n/djbw96ll5XLl09xyHtLdAbqXvJIQxC5PLH54eKJAYAQAA</data>
+        <document_id display_value="Created 2026-10-12 10:25:43">1b919e0be9770310d33dadd4957156b2</document_id>
+        <field>flow_config_param</field>
+        <length>300</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>17919e0b83770310a6945a96feaad3b5</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/+1YbW/aSBD+L9Z9RMT2Gr/w6QjJ6ZDaJILcSaeqssbrMbVqdn3edRsU8d87axvCW66QuyiVel8QzM48++w+DzOGRysr5NfrAhcotLKGHx4tJeuK4yS1hpZGFf9do9K5FALyCuOygGUi5Wer1+XdwAJPy/wjbzA9BM4xzEKWMZs5NviRN4DIzxAgZSHf5I+KHIiRVUmpKVhCRRRn20uiLoqepZelYXA3uorvprfj69nMQHDZRMNoEGYDZofMDcLM8XZ3czxKXeRiIpSuam7IG442BeFhL+hRFKtKVvdQzVGvd6fEaxM9kl1hKSudi/lEWsNH61dDtLuuKUJ6K4rlFWZQF/q21mWtFeX1rFzQW8pf9SzZhNv36XamCa2e9h4XCKIunyN8uGyE/khbqcnvM42lNcygUEgbVilWRO/mYmSYfFJPi6vejjMEfo2VhjnuG+FwodM9sn0eRX6I3E6ARREmYcYcGAQuZ4DgHui+QYpPKD3ijrVxtvzxbnRz/W/N4R4zB/POMYfJfmNzbAi/qjl+oddKP2uRveW1UcLIcdBOBlkQmAbh+zCwEx6kvuMHjj943igtXnwCwDG7nOW3LVONxveTPyf3f72KsRz3HGOZ7Dc21obwaxjrYMp8dwztm4sFDAI3RZ44EUQ4CH1gLPBTJ2Newjw4MNfhYDsB4ke0l8OO+ctl5/jLZL+xvzaEX7dxoUifb1vbi52v0q7nJG7bc1IYJDbzGc8in0X/2LQILT6h/Ef0lOv9PwwPPUX5akmBxaiBaMTCDsg8bc+ax6PuVohtLvKWyeVyR15zmPyJyuXyPSrVlD5aF7I0MSjMHl9yvWzujRegjC+4XPSV4P0y7S9kikV/C6Y/WSxqDUmBd1ejNL3dw9k6uzmYuZ2wZ8F61XjdmDEdS6HxQZvArmC/0QmnmCG5lZv2+wWK2sRzQXRi3pbFBEyny14Ek+3DKAGl+iTPJFNJTvcZPwkQr3E6WNFiHF41+alV4g6WhYSzdu0qjLRqfffWkK6cepF10ZEaAxUWL5K0LT2iYvCTq7h7tabngKLbOX2rrmBPuW6MbPCn2D7UvkS7rvaIeNGeeN/7ER1XuH62/hlFnm5O/598UQUJSMPpPZSbaTOX24FmBlNb17VqqmPiMScJlHXMLFRAgGWBDyTnWNZCN385zOUl8M/3sp2azQy4XLYf3kHStIPVflazcDA2Vt8AfLuCWdYRAAA=</data>
+        <document_id display_value="Created 2026-10-12 10:25:43">1b919e0be9770310d33dadd4957156b2</document_id>
+        <field>flow_structure</field>
+        <length>1236</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>93919e0b83770310a6945a96feaad3b4</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/+1bW2+bMBj9L36OEMZc+7Su7aZqUzel2fYwTciASVGJYWDaRVX/++yE3tKkJg12HsJbAr58/s53TnxiuAMZrVnVxCwraA2Oft+BD3GOa/4RxMXMqGlslIkxKxKSG8+aGuezWcNwlJPvp5cMV+z86R4YgSwBR+YIYP79JmPzc/4V2ATHMfFTH6XIRNDEbmA7OHBTgnGC/DisxTi8c5mcFJSRf0x04/GweUku8IzwMT7lxe2YpKQiNCa86Q3OG3E9ozzKMF52C/ns9yOQvmuYdHWYmuKyviq2DKYqYlLXYULSjGYiKeHDOO2wdDkGI3X4tyG1aEJxVpGwzPE8Korrx3Rk9bdS3MY5OEpxXpP70TtAOiVxlpALkY5XSMEtkToUjPrJ/OVV0eTJcZvgcUNfA2CNQI4jwqcBfuD4qYNMH1men0L7Ze6hbWyuGIOSW1E1U2IEfgAhMSMn9TyBoOtix4xiL3Gh60HXeSyuF7jLeh0K7lVDH+D6qhcWPnN3xrfrSPlSjRurLcKEFesL8RfO2KS4JmvKD41AUfKRx2efzy8nZ2N++fah9Rcy71AZoWgfMtEB9BHsBFdTskapbO1EYdmMVL2sSQDwekWOglxLBGn8VN6v43G1Z3hZ84MQbdwk0CbPd6qSkSiNMies5ZU+bJOCikWzoomvdM+9mFRMLhisffKFbCx+Sj7mRXyd0Sk44lQjitR9k2B62uks6k6hXvr69XIiCmmzYgaDeK0VL90/1C3dBdrHU5xR3ZRfFL5mekNTe54Xkq54QwphuyP9caFyT7qLZbYG1u/XM0PUd+kjD2HPSkgcwQAHxPFdjJDnJjBFdoRsvN40y3odCvDKTLMUlv2YZmhLXbM0ck2uGTraqaLaNkNXQbZ38c2w9512x7ofxGg747xNmSgzztIgFBpnOXcVGueOwrFinBd6rntr7WsntGLrDAP9minxztbqIeEgYCrMc2fKqzLP3UpfM8MtqD3POsyzZXUwz8qJ/5Z5ttDA+j0fOPd+kJa0/39E1vL/jwQ7kYlcFKeBi4JNJ86yXocCvDLzLIVlP+bZcqTmWRq5JvNs9X4iKl2ZavNseQqyvYt5tnrfa3es+0GMtjPP25SJMvMsDUKheZZzV6F57igc+z91tgLtfFbsnZGpXzIl3hmtPrY56JcK79yZ8aq8c7fS18xw1Psjq91UXfWTkKiDd1ZO/Le8M7IH1u/XO6Nnp2nSdxrarcjweH030yvN58OWsrf3Ik7aAdfg7K7gdii4dC7uZ2DIX2d5E7k/I8DjwU3OFa9s2E8RLkfx7v7x+reGvbhx/x/5O8bDujQAAA==</data>
+        <document_id display_value="Created 2026-10-12 10:25:43">1b919e0be9770310d33dadd4957156b2</document_id>
+        <field>instructions</field>
+        <length>1340</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>5b919e0b83770310a6945a96feaad3b3</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/6tWyswrLikqTS7JzM/zTAnJD0rNzS9L9U6tdEosSc5QsqqurQUAOtk80SQAAAA=</data>
+        <document_id display_value="Created 2026-10-12 10:25:43">1b919e0be9770310d33dadd4957156b2</document_id>
+        <field>runtime_value_metadata</field>
+        <length>76</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:25:43</sys_created_on>
+        <sys_id>db919e0b83770310a6945a96feaad3b4</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <allow_as_nested>true</allow_as_nested>
+        <copied_from/>
+        <copied_from_label/>
+        <data_retention_period_override>6_week</data_retention_period_override>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <evaluate_variant_children_after/>
+        <execution_type>record_driven</execution_type>
+        <label>TES: Questionnaire playbook</label>
+        <launcher_description/>
+        <launcher_inputs/>
+        <launcher_record_form_view/>
+        <launcher_show_record_form>false</launcher_show_record_form>
+        <launcher_template_fields/>
+        <launcher_title/>
+        <name>tes_questionnaire_playbook</name>
+        <now_assist_kb/>
+        <now_assist_prompt/>
+        <permission>{}</permission>
+        <process_type display_value="Standard playbook">52c6d3eeff1be2102c2fffffffffff44</process_type>
+        <public_access>false</public_access>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_once</run_strategy>
+        <run_strategy_on_process_definition>true</run_strategy_on_process_definition>
+        <schema_version>3</schema_version>
+        <snapshot display_value="tes_questionnaire_playbook">9f915e0b83770310a6945a96feaad377</snapshot>
+        <start_non_blocking>true</start_non_blocking>
+        <status>published</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:04:04</sys_created_on>
+        <sys_id>4eacce8f83f30310a6945a96feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TES: Questionnaire playbook</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_pd_process_definition_4eacce8f83f30310a6945a96feaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:25:43</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=4eacce8f83f30310a6945a96feaad38c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4eacce8f83f30310a6945a96feaad38c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_pd_process_input_4eacce8f83f30310a6945a96feaad38c^id=4eacce8f83f30310a6945a96feaad38c"/>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="How many regions are there in Vvardenfell?">9e97515283a74394a6945a96feaad369</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 22:47:14</sys_created_on>
+        <sys_id>e15b82de83238394a6945a96feaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>12</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>question_choice_e15b82de83238394a6945a96feaad3f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 22:47:14</sys_updated_on>
+        <text>12</text>
+        <value>12</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=e15b82de83238394a6945a96feaad3f7"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>e15b82de83238394a6945a96feaad3f7</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 22:47:14</sys_created_on>
+        <sys_id>365bc2de83238394a6945a96feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 22:47:14</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>e15b82de83238394a6945a96feaad3f7</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 22:47:14</sys_created_on>
+        <sys_id>fa5bc2de83238394a6945a96feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 22:47:14</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>question_choice_e15b82de83238394a6945a96feaad3f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>300</order><published_ref/><question display_value="How many regions are there in Vvardenfell?">9e97515283a74394a6945a96feaad369</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-27 22:47:14</sys_created_on><sys_id>e15b82de83238394a6945a96feaad3f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>12</sys_name><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>question_choice_e15b82de83238394a6945a96feaad3f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-27 22:47:14</sys_updated_on><text>12</text><value>12</value></question_choice><fx_price action="delete_multiple" query="id=e15b82de83238394a6945a96feaad3f7"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>e15b82de83238394a6945a96feaad3f7</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-27 22:47:14</sys_created_on><sys_id>365bc2de83238394a6945a96feaad3d1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-27 22:47:14</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>e15b82de83238394a6945a96feaad3f7</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-27 22:47:14</sys_created_on><sys_id>fa5bc2de83238394a6945a96feaad3d0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-27 22:47:14</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1102644194</payload_hash>
+        <record_name>12</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 22:47:14</sys_created_on>
+        <sys_id>725bc2de83238394a6945a96feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0e50d143e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 22:47:14</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>325bc2decc238394b4336d1a29b6f6d4</update_guid>
+        <update_guid_history>325bc2decc238394b4336d1a29b6f6d4:-1102644194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="12">c1e7df5f83770710a6945a96feaad396</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 17:11:14</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1b51e22d2d4b403cadf5403c28b16aa4</sys_id>
+        <sys_metadata>e15b82de83238394a6945a96feaad3f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>12</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>question_choice_e15b82de83238394a6945a96feaad3f7</sys_update_name>
+        <sys_update_version display_value="question_choice_e15b82de83238394a6945a96feaad3f7">725bc2de83238394a6945a96feaad3d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 17:11:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

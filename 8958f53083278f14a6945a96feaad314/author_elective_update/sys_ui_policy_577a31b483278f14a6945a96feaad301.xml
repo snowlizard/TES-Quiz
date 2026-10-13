@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>10000</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>[TES] Hide unnecessary fields</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:43:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>577a31b483278f14a6945a96feaad301</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>[TES] Hide unnecessary fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_ui_policy_577a31b483278f14a6945a96feaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:50:46</sys_updated_on>
+        <table>x_842748_tes_lore_tes_question</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_ui_policy_577a31b483278f14a6945a96feaad301</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;10000&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;[TES] Hide unnecessary fields&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-23 05:43:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;577a31b483278f14a6945a96feaad301&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;[TES] Hide unnecessary fields&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TES: Lore" source="x_842748_tes_lore"&gt;8958f53083278f14a6945a96feaad314&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TES: Lore"&gt;8958f53083278f14a6945a96feaad314&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_577a31b483278f14a6945a96feaad301&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-23 05:50:46&lt;/sys_updated_on&gt;&lt;table&gt;x_842748_tes_lore_tes_question&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1110409159</payload_hash>
+        <record_name>[TES] Hide unnecessary fields</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:50:46</sys_created_on>
+        <sys_id>565c79b883278f14a6945a96feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0ccd109da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:50:46</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>165c79b8d7278f147fccf28ba52e6ba1</update_guid>
+        <update_guid_history>165c79b8d7278f147fccf28ba52e6ba1:-1110409159,914b3df4fd278f14e683da89806fd80b:-1461852045,2aaaf574ce278f142743450548a19eec:-197316103</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 05:43:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>43e632f513a4466093b364b621662400</sys_id>
+        <sys_metadata>577a31b483278f14a6945a96feaad301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[TES] Hide unnecessary fields</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="">99a8f17083278f14a6945a96feaad396</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_577a31b483278f14a6945a96feaad301</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_577a31b483278f14a6945a96feaad301">565c79b883278f14a6945a96feaad3a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 05:43:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

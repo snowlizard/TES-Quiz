@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="8f5a201783f38310a6945a96feaad327" sys_domain="global" table="x_842748_tes_lore_tes_game" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 04:33:26</sys_created_on>
+            <sys_id>ec7aa45783f38310a6945a96feaad38d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_tes_game" sys_domain="global" view="Default view">8f5a201783f38310a6945a96feaad327</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 04:33:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 04:33:26</sys_created_on>
+            <sys_id>6c7aa45783f38310a6945a96feaad38e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_tes_game" sys_domain="global" view="Default view">8f5a201783f38310a6945a96feaad327</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 04:33:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_group</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 04:33:26</sys_created_on>
+            <sys_id>e87aa45783f38310a6945a96feaad38f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_tes_game" sys_domain="global" view="Default view">8f5a201783f38310a6945a96feaad327</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 04:33:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_842748_tes_lore_tes_game</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 04:33:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f5a201783f38310a6945a96feaad327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_842748_tes_lore_tes_game</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+            <sys_update_name>sys_ui_section_8f5a201783f38310a6945a96feaad327</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 04:33:05</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_ui_section_8f5a201783f38310a6945a96feaad327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="8f5a201783f38310a6945a96feaad327" sys_domain="global" table="x_842748_tes_lore_tes_game" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-13 04:33:26</sys_created_on><sys_id>ec7aa45783f38310a6945a96feaad38d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_tes_game" sys_domain="global" view="Default view">8f5a201783f38310a6945a96feaad327</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-13 04:33:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-13 04:33:26</sys_created_on><sys_id>6c7aa45783f38310a6945a96feaad38e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_tes_game" sys_domain="global" view="Default view">8f5a201783f38310a6945a96feaad327</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-13 04:33:26</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>approval_group</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-13 04:33:26</sys_created_on><sys_id>e87aa45783f38310a6945a96feaad38f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_tes_game" sys_domain="global" view="Default view">8f5a201783f38310a6945a96feaad327</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-13 04:33:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_842748_tes_lore_tes_game</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-13 04:33:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8f5a201783f38310a6945a96feaad327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_842748_tes_lore_tes_game</sys_name><sys_overrides/><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_ui_section_8f5a201783f38310a6945a96feaad327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-13 04:33:05</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>703893249</payload_hash>
+        <record_name>TES: Game</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 04:33:26</sys_created_on>
+        <sys_id>207aa45783f38310a6945a96feaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a133896da20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 04:33:26</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>207aa457f4f383102bbdd07cd67e5293</update_guid>
+        <update_guid_history>207aa457f4f383102bbdd07cd67e5293:703893249,175aa057a0f38310a4dcdaf9e01e1dfa:864103837,175a201786f3831087d0dfe71a58942d:-731873590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 04:40:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>92727ac379eb49c481b9ccdbb3c55710</sys_id>
+        <sys_metadata>8f5a201783f38310a6945a96feaad327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_842748_tes_lore_tes_game</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="">498924d383f38310a6945a96feaad35c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_8f5a201783f38310a6945a96feaad327</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_8f5a201783f38310a6945a96feaad327">207aa45783f38310a6945a96feaad394</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 04:40:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dbd840e9837f0b18a6945a96feaad3f4" sys_domain="global" table="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 15:37:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efd880e9837f0b18a6945a96feaad334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">dbd840e9837f0b18a6945a96feaad3f4</sys_ui_form>
+            <sys_ui_section caption="Associated Record" display_value="Associated Record" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">afd880e9837f0b18a6945a96feaad31d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 15:37:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 15:37:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbd880e9837f0b18a6945a96feaad36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">dbd840e9837f0b18a6945a96feaad3f4</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">3bd880e9837f0b18a6945a96feaad361</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 15:37:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 15:37:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afd880e9837f0b18a6945a96feaad360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">dbd840e9837f0b18a6945a96feaad3f4</sys_ui_form>
+            <sys_ui_section caption="Form" display_value="Form" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">a3d880e9837f0b18a6945a96feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 15:37:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 15:37:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebd880e9837f0b18a6945a96feaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">dbd840e9837f0b18a6945a96feaad3f4</sys_ui_form>
+            <sys_ui_section caption="Attachments" display_value="Attachments" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">57d880e9837f0b18a6945a96feaad312</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 15:37:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 15:37:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33d880e9837f0b18a6945a96feaad37a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">dbd840e9837f0b18a6945a96feaad3f4</sys_ui_form>
+            <sys_ui_section caption="Features" display_value="Features" name="var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351" sys_domain="global" view="Default view">37d880e9837f0b18a6945a96feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 15:37:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 15:37:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbd840e9837f0b18a6945a96feaad3f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>var__m_sys_pd_activity_type_prop_99d84ca9837f0b18a6945a96feaad351</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dbd840e9837f0b18a6945a96feaad3f4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 15:37:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

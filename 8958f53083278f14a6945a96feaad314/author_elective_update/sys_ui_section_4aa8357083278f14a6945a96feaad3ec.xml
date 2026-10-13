@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Auto-populate" section_id="4aa8357083278f14a6945a96feaad3ec" sys_domain="global" table="x_842748_tes_lore_tes_question" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dynamic_value_field</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>4ea8357083278f14a6945a96feaad3fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auto-populate" display_value="Auto-populate" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">4aa8357083278f14a6945a96feaad3ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dynamic_value_field.reference</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>0aa8357083278f14a6945a96feaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auto-populate" display_value="Auto-populate" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">4aa8357083278f14a6945a96feaad3ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dynamic_value_dot_walk_path</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_id>caa8357083278f14a6945a96feaad3fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auto-populate" display_value="Auto-populate" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">4aa8357083278f14a6945a96feaad3ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Auto-populate</caption>
+            <header>false</header>
+            <name>x_842748_tes_lore_tes_question</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4aa8357083278f14a6945a96feaad3ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_842748_tes_lore_tes_question</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+            <sys_update_name>sys_ui_section_4aa8357083278f14a6945a96feaad3ec</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_ui_section_4aa8357083278f14a6945a96feaad3ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Auto-populate" section_id="4aa8357083278f14a6945a96feaad3ec" sys_domain="global" table="x_842748_tes_lore_tes_question" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>dynamic_value_field</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>4ea8357083278f14a6945a96feaad3fb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Auto-populate" display_value="Auto-populate" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">4aa8357083278f14a6945a96feaad3ec</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dynamic_value_field.reference</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>0aa8357083278f14a6945a96feaad3ee</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Auto-populate" display_value="Auto-populate" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">4aa8357083278f14a6945a96feaad3ec</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dynamic_value_dot_walk_path</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_id>caa8357083278f14a6945a96feaad3fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Auto-populate" display_value="Auto-populate" name="x_842748_tes_lore_tes_question" sys_domain="global" view="Default view">4aa8357083278f14a6945a96feaad3ec</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Auto-populate</caption><header>false</header><name>x_842748_tes_lore_tes_question</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4aa8357083278f14a6945a96feaad3ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_842748_tes_lore_tes_question</sys_name><sys_overrides/><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_ui_section_4aa8357083278f14a6945a96feaad3ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:39</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1755442001</payload_hash>
+        <record_name>TES Question</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:34:39</sys_created_on>
+        <sys_id>86a8757083278f14a6945a96feaad300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0ccc2482b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:34:39</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>4aa83570a3278f14779429b05b7534ff</update_guid>
+        <update_guid_history>4aa83570a3278f14779429b05b7534ff:-1755442001</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 05:43:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>a3f97aefed5247dc801d98319125af90</sys_id>
+        <sys_metadata>4aa8357083278f14a6945a96feaad3ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto-populate</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="">99a8f17083278f14a6945a96feaad396</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_4aa8357083278f14a6945a96feaad3ec</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_4aa8357083278f14a6945a96feaad3ec">86a8757083278f14a6945a96feaad300</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 05:43:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

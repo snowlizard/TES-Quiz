@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Questionset Plugin" source="com.glideapp.questionset">47e4b27b8c5503100a22deb6dd2b4e92</dependency>
+        <min_version>0.0.1</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 05:45:05</sys_created_on>
+        <sys_id>8661a20e8323cf54a6945a96feaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 05:45:05</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

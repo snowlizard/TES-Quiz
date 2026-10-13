@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,update_synch=true" db_object_id="0661620e8323cf54a6945a96feaad3aa" extends="question" label="TES: Question" max_length="40" name="x_842748_tes_lore_tes_question" type="collection">
+        <element label="Game" mandatory="true" max_length="40" name="book" reference="x_842748_tes_lore_game" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element default="Draft" label="State" max_length="40" name="state" read_only="true" read_only_option="display_read_only" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Retired" sequence="3" value="Retired"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="Cancelled"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+                <element inactive_on_update="false" label="In review" sequence="1" value="In review"/>
+                <element inactive_on_update="false" label="Published" sequence="2" value="Published"/>
+            </choice>
+        </element>
+        <element hint="Unique identification text used for all versions of a question." label="Question ID" max_length="40" name="question_id" type="string"/>
+        <element label="Version" max_length="32" name="version" read_only="true" read_only_option="display_read_only" reference="x_842748_tes_lore_version" type="reference"/>
+        <index name="index">
+            <element name="version"/>
+        </index>
+    </element>
+</database>

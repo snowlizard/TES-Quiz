@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code>playbook_bd6fceda83638394a6945a96feaad3e3</code>
+        <commented_message/>
+        <key>Update Record</key>
+        <language>en</language>
+        <message>Update Record</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 02:41:41</sys_created_on>
+        <sys_id>01010b92832f8394a6945a96feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Record</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_ui_message_01010b92832f8394a6945a96feaad378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 02:41:41</sys_updated_on>
+    </sys_ui_message>
+</record_update>

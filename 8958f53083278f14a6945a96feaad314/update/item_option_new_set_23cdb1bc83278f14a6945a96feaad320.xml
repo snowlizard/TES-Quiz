@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description>The Elder Scrolls: Morrowind</description>
+        <display_title>false</display_title>
+        <internal_name>tes_book_morrowind</internal_name>
+        <layout>2down</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:57:51</sys_created_on>
+        <sys_id>23cdb1bc83278f14a6945a96feaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Morrowind</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>item_option_new_set_23cdb1bc83278f14a6945a96feaad320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:57:51</sys_updated_on>
+        <title>Morrowind</title>
+        <type>one_to_one</type>
+        <version/>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

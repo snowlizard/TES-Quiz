@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,update_synch=true" db_object_id="7c4d24db83f38310a6945a96feaad352" extends="dl_matcher" label="TES: Version" max_length="40" name="x_842748_tes_lore_version" type="collection">
+        <element label="Modified by" max_length="32" name="modified_by" reference="sys_user" type="reference"/>
+        <element label="Question" max_length="32" name="question" read_only="true" read_only_option="display_read_only" reference="x_842748_tes_lore_tes_question" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Modified on" max_length="40" name="modified_on" type="glide_date_time"/>
+        <element default="1" display="true" label="Version" max_length="40" name="version" type="integer"/>
+        <element label="Question ID" max_length="200" name="question_id" type="string"/>
+        <index name="index">
+            <element name="modified_by"/>
+        </index>
+        <index name="index2">
+            <element name="question"/>
+        </index>
+    </element>
+</database>

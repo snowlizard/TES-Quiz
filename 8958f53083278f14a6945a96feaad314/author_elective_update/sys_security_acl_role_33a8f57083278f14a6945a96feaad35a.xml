@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:34:46</sys_created_on>
+        <sys_id>33a8f57083278f14a6945a96feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_842748_tes_lore_tes_question.x_842748_tes_lore.tes_admin</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_security_acl display_value="x_842748_tes_lore_tes_question">73a8f57083278f14a6945a96feaad351</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_33a8f57083278f14a6945a96feaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:34:46</sys_updated_on>
+        <sys_user_role display_value="x_842748_tes_lore.tes_admin" name="x_842748_tes_lore.tes_admin">d158393083278f14a6945a96feaad308</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_security_acl_role_33a8f57083278f14a6945a96feaad35a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 05:34:46</sys_created_on><sys_id>33a8f57083278f14a6945a96feaad35a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_842748_tes_lore_tes_question.x_842748_tes_lore.tes_admin</sys_name><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_security_acl display_value="x_842748_tes_lore_tes_question">73a8f57083278f14a6945a96feaad351</sys_security_acl><sys_update_name>sys_security_acl_role_33a8f57083278f14a6945a96feaad35a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-23 05:34:46</sys_updated_on><sys_user_role display_value="x_842748_tes_lore.tes_admin" name="x_842748_tes_lore.tes_admin">d158393083278f14a6945a96feaad308</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>575756486</payload_hash>
+        <record_name>x_842748_tes_lore_tes_question.x_842748_tes_lore.tes_admin</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 05:34:46</sys_created_on>
+        <sys_id>fba8f57083278f14a6945a96feaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0ccc2647d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 05:34:46</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>bba8f570a5278f14d5baba7301d6ac6e</update_guid>
+        <update_guid_history>bba8f570a5278f14d5baba7301d6ac6e:575756486</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_842748_tes_lore_tes_question.x_842748_tes_lore.tes_admin">fa1126ca8323cf54a6945a96feaad3be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 05:43:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>70e43afddf944229a5aeed5d6148e9d1</sys_id>
+        <sys_metadata>33a8f57083278f14a6945a96feaad35a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_842748_tes_lore_tes_question.x_842748_tes_lore.tes_admin</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="">73a8f57083278f14a6945a96feaad351</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_33a8f57083278f14a6945a96feaad35a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_33a8f57083278f14a6945a96feaad35a">fba8f57083278f14a6945a96feaad36f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 05:43:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

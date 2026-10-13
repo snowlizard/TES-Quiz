@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type">
+    <sys_pd_activity_type action="DELETE">
+        <color/>
+        <color_category display_value="Color Grouped - Brown 1">5be09143070e201083c548f78ad300ed</color_category>
+        <default_activity_ui/>
+        <icon display_value="script-cursor-fill">script_cursor_fill</icon>
+        <name>TES: Questions layout</name>
+        <sys_class_name>sys_pd_activity_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 16:36:08</sys_created_on>
+        <sys_id>3b16ce0f83b30310a6945a96feaad31f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TES: Questions layout</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_pd_activity_type_3b16ce0f83b30310a6945a96feaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 16:40:51</sys_updated_on>
+    </sys_pd_activity_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_pd_activity_type_3b16ce0f83b30310a6945a96feaad31f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type"><sys_pd_activity_type action="INSERT_OR_UPDATE"><color/><color_category display_value="Color Grouped - Brown 1">5be09143070e201083c548f78ad300ed</color_category><default_activity_ui/><icon display_value="script-cursor-fill">script_cursor_fill</icon><name>TES: Questions layout</name><sys_class_name>sys_pd_activity_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-12 16:36:08</sys_created_on><sys_id>3b16ce0f83b30310a6945a96feaad31f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>TES: Questions layout</sys_name><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_pd_activity_type_3b16ce0f83b30310a6945a96feaad31f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-12 16:40:51</sys_updated_on></sys_pd_activity_type></record_update>]]></payload>
+        <payload_hash>-208338984</payload_hash>
+        <record_name>TES: Questions layout</record_name>
+        <reverted_from/>
+        <source>1d58f53083278f14a6945a96feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:11:48</sys_created_on>
+        <sys_id>ab6e828b83370310a6945a96feaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a131195e3e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:11:48</sys_updated_on>
+        <type>Activity UI Layout</type>
+        <update_guid>0a570a0301f303104bdfebe1a9c9011e</update_guid>
+        <update_guid_history>0a570a0301f303104bdfebe1a9c9011e:1671762964,0a570a0301f303104bdfebe1a9c9011e:1671762964,8d46028f25b30310e87a9307094260cf:1488701792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 17:12:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_activity_type">sys_pd_activity_type</sys_db_object>
+        <sys_id>5bf8348a1aa84148a7302c0e0a475a40</sys_id>
+        <sys_metadata>3b16ce0f83b30310a6945a96feaad31f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TES: Questions layout</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_pd_activity_type_3b16ce0f83b30310a6945a96feaad31f</sys_update_name>
+        <sys_update_version display_value="sys_pd_activity_type_3b16ce0f83b30310a6945a96feaad31f">ab6e828b83370310a6945a96feaad37c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 17:12:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
