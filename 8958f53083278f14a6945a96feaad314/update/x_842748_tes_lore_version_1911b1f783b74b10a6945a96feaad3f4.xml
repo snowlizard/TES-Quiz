@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_842748_tes_lore_version">
+    <x_842748_tes_lore_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <modified_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</modified_by>
+        <modified_on>2026-10-14 22:59:02</modified_on>
+        <number>TESV0001013</number>
+        <order>100</order>
+        <question display_value="What is your name?">ba2f65b383b74b10a6945a96feaad3ef</question>
+        <question_id/>
+        <sys_class_name>x_842748_tes_lore_version</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-14 22:59:02</sys_created_on>
+        <sys_id>1911b1f783b74b10a6945a96feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>x_842748_tes_lore_version_1911b1f783b74b10a6945a96feaad3f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-14 22:59:02</sys_updated_on>
+        <version>2</version>
+    </x_842748_tes_lore_version>
+</record_update>
