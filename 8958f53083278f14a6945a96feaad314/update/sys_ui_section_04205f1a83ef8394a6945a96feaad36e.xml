@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-07 16:50:56</sys_created_on>
-            <sys_id>55b95c6183734b18a6945a96feaad349</sys_id>
+            <sys_created_on>2026-10-13 19:39:21</sys_created_on>
+            <sys_id>26c97713837f0710a6945a96feaad3f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">04205f1a83ef8394a6945a96feaad36e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-07 16:50:56</sys_updated_on>
+            <sys_updated_on>2026-10-13 19:39:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>assigned_to</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-07 16:50:57</sys_created_on>
-            <sys_id>d1b95c6183734b18a6945a96feaad34a</sys_id>
+            <sys_created_on>2026-10-13 19:39:21</sys_created_on>
+            <sys_id>a2c97713837f0710a6945a96feaad3f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">04205f1a83ef8394a6945a96feaad36e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-07 16:50:57</sys_updated_on>
+            <sys_updated_on>2026-10-13 19:39:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-07 16:50:57</sys_created_on>
-            <sys_id>51b95c6183734b18a6945a96feaad34b</sys_id>
+            <sys_created_on>2026-10-13 19:39:21</sys_created_on>
+            <sys_id>22c97713837f0710a6945a96feaad3f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">04205f1a83ef8394a6945a96feaad36e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-07 16:50:57</sys_updated_on>
+            <sys_updated_on>2026-10-13 19:39:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>state</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-07 16:50:57</sys_created_on>
-            <sys_id>ddb95c6183734b18a6945a96feaad34b</sys_id>
+            <sys_created_on>2026-10-13 19:39:21</sys_created_on>
+            <sys_id>aec97713837f0710a6945a96feaad3f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">04205f1a83ef8394a6945a96feaad36e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-07 16:50:57</sys_updated_on>
+            <sys_updated_on>2026-10-13 19:39:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,15 +60,71 @@
             <element>current_game</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-07 16:50:57</sys_created_on>
-            <sys_id>5db95c6183734b18a6945a96feaad34c</sys_id>
+            <sys_created_on>2026-10-13 19:39:21</sys_created_on>
+            <sys_id>2ec97713837f0710a6945a96feaad3f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">04205f1a83ef8394a6945a96feaad36e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-07 16:50:57</sys_updated_on>
+            <sys_updated_on>2026-10-13 19:39:21</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 19:39:21</sys_created_on>
+            <sys_id>aac97713837f0710a6945a96feaad3f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">04205f1a83ef8394a6945a96feaad36e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 19:39:21</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>com_glideapp_questionset_default_question_editor.xml</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 19:39:21</sys_created_on>
+            <sys_id>2ac97713837f0710a6945a96feaad3f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Variable Editor">a7a2da5283e38394a6945a96feaad315</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">04205f1a83ef8394a6945a96feaad36e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 19:39:21</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 19:39:21</sys_created_on>
+            <sys_id>aec97713837f0710a6945a96feaad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">04205f1a83ef8394a6945a96feaad36e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 19:39:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 19:39:21</sys_created_on>
+            <sys_id>2ec97713837f0710a6945a96feaad3fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">04205f1a83ef8394a6945a96feaad36e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 19:39:21</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

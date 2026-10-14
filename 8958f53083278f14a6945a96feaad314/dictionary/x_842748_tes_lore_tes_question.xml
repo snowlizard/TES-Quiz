@@ -11,8 +11,14 @@
             </choice>
         </element>
         <element hint="Unique identification text used for all versions of a question." label="Question ID" max_length="40" name="question_id" type="string"/>
+        <element label="Can skip game" max_length="40" name="can_skip_game" type="boolean"/>
+        <element label="Skip game" max_length="32" name="skip_game" reference="x_842748_tes_lore_game" reference_qual="javascript:new x_842748_tes_lore.tesUtils().skipGameFilter(current.getValue('book'));" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Skip answer value" max_length="255" name="skip_answer_value" type="string"/>
         <element label="Version" max_length="32" name="version" read_only="true" read_only_option="display_read_only" reference="x_842748_tes_lore_version" type="reference"/>
         <index name="index">
+            <element name="skip_game"/>
+        </index>
+        <index name="index2">
             <element name="version"/>
         </index>
     </element>

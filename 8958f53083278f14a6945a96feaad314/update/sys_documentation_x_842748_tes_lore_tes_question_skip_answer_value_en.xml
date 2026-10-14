@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="skip_answer_value" label="Skip answer value" language="en" table="x_842748_tes_lore_tes_question">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>skip_answer_value</element>
+            <help/>
+            <hint/>
+            <label>Skip answer value</label>
+            <language>en</language>
+            <name>x_842748_tes_lore_tes_question</name>
+            <plural>Skip answer values</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-14 18:01:58</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Skip answer value</sys_name>
+            <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+            <sys_update_name>sys_documentation_x_842748_tes_lore_tes_question_skip_answer_value_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-14 18:01:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

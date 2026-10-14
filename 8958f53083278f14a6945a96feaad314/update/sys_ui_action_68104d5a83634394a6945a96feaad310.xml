@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state == 'Draft'</condition>
+        <condition>current.state == 'Draft' &amp;&amp; !current.isNewRecord()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
@@ -61,7 +61,7 @@ if (typeof window == 'undefined') {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>68104d5a83634394a6945a96feaad310</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Publish</sys_name>
         <sys_overrides/>
         <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
@@ -69,7 +69,7 @@ if (typeof window == 'undefined') {
         <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
         <sys_update_name>sys_ui_action_68104d5a83634394a6945a96feaad310</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-13 18:01:53</sys_updated_on>
+        <sys_updated_on>2026-10-14 17:32:04</sys_updated_on>
         <table>x_842748_tes_lore_tes_question</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

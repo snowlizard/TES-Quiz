@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Questionnaire" section_id="42a93313837f0710a6945a96feaad355" sys_domain="global" table="x_842748_tes_lore_questionnaire" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>com_glideapp_questionset_default_question_editor.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 19:38:47</sys_created_on>
+            <sys_id>56a93313837f0710a6945a96feaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Variable Editor">a7a2da5283e38394a6945a96feaad315</sys_ui_formatter>
+            <sys_ui_section caption="Questionnaire" display_value="Questionnaire" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">42a93313837f0710a6945a96feaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 19:38:47</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Questionnaire</caption>
+            <header>false</header>
+            <name>x_842748_tes_lore_questionnaire</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-13 19:38:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42a93313837f0710a6945a96feaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_842748_tes_lore_questionnaire</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+            <sys_update_name>sys_ui_section_42a93313837f0710a6945a96feaad355</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-13 19:38:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">37f1ba3b8c9103100a22deb6dd2b4eef</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_ui_section_42a93313837f0710a6945a96feaad355</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Questionnaire" section_id="42a93313837f0710a6945a96feaad355" sys_domain="global" table="x_842748_tes_lore_questionnaire" version="3" view="workspace"><sys_ui_element action="INSERT_OR_UPDATE"><element>com_glideapp_questionset_default_question_editor.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-13 19:38:47</sys_created_on><sys_id>56a93313837f0710a6945a96feaad3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Variable Editor">a7a2da5283e38394a6945a96feaad315</sys_ui_formatter><sys_ui_section caption="Questionnaire" display_value="Questionnaire" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">42a93313837f0710a6945a96feaad355</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-13 19:38:47</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Questionnaire</caption><header>false</header><name>x_842748_tes_lore_questionnaire</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-13 19:38:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>42a93313837f0710a6945a96feaad355</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_842748_tes_lore_questionnaire</sys_name><sys_overrides/><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_ui_section_42a93313837f0710a6945a96feaad355</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-13 19:38:46</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace" name="workspace">37f1ba3b8c9103100a22deb6dd2b4eef</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1407763921</payload_hash>
+        <record_name>TES: Questionnaire</record_name>
+        <reverted_from/>
+        <source>79ad23d383bb0710a6945a96feaad36a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 19:38:47</sys_created_on>
+        <sys_id>16a93313837f0710a6945a96feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a136c64b890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 19:38:47</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>d6a93313187f071080a42742b8d50ca9</update_guid>
+        <update_guid_history>d6a93313187f071080a42742b8d50ca9:1407763921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-13 19:39:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>43cd51c464bd456093b12bf128839c40</sys_id>
+        <sys_metadata>42a93313837f0710a6945a96feaad355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Questionnaire</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent display_value="TES: Questionnaire">970dca9283638394a6945a96feaad310</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_42a93313837f0710a6945a96feaad355</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_42a93313837f0710a6945a96feaad355">16a93313837f0710a6945a96feaad3aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-13 19:39:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -14,20 +14,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-07 16:50:56</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-07 16:50:56</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>49b95c6183734b18a6945a96feaad31a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_842748_tes_lore_questionnaire" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">89b95c6183734b18a6945a96feaad313</sys_ui_form>
-            <sys_ui_section caption="Questions" display_value="Questions" name="x_842748_tes_lore_questionnaire" sys_domain="global" view="37f1ba3b8c9103100a22deb6dd2b4eef">01b95c6183734b18a6945a96feaad311</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-07 16:50:56</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_842748_tes_lore_questionnaire</name>
             <roles/>

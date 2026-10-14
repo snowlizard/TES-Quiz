@@ -34,7 +34,6 @@ tesUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         return null;
     },
 
-
     generateVersion: (number) => {
         let version = new GlideRecord('x_842748_tes_lore_version');
         version.initialize();
@@ -45,19 +44,64 @@ tesUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         return version.insert();
     },
 
+    generateQuestions: function(questionnaire, game) {
+        let question = new GlideRecord('x_842748_tes_lore_tes_question');
+        question.addEncodedQuery('active=true^state=Published^book=' + game);
+        question.orderBy('order');
+        question.query();
+
+        while (question.next()) {
+            let answer = new GlideRecord('question_answer');
+            answer.initialize();
+            answer.table_name = questionnaire.getTableName();
+            answer.table_sys_id = questionnaire.getUniqueValue();
+            answer.question = question.getUniqueValue();
+            answer.order = this._getNextOrder(questionnaire) + 100;
+            answer.insert();
+        }
+    },
+
+    _getNextOrder: function(questionnaire) {
+        let questionAnswer = new GlideAggregate('question_answer');
+        questionAnswer.addEncodedQuery('table_name=' + questionnaire.getTableName() + '^table_sys_id=' + questionnaire.getUniqueValue());
+        questionAnswer.orderByDesc('order');
+        questionAnswer.query();
+
+        if (questionAnswer.next()) {
+            return parseInt(questionAnswer.getValue('order'));
+        }
+        return 100;
+    },
+
+    skipGameFilter: (question_game) => {
+        let availableGames = [];
+
+        let game = new GlideRecord('x_842748_tes_lore_game');
+        game.addEncodedQuery('active=true^initial_game=false');
+        game.query();
+
+        while (game.next()) {
+            if (game.getUniqueValue() != question_game) {
+                availableGames.push(game.getUniqueValue());
+            }
+        }
+
+        return "sys_idIN" + availableGames.join(',');
+    },
+
     type: 'tesUtils'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-27 18:09:03</sys_created_on>
         <sys_id>9e09c9de83a34394a6945a96feaad362</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>tesUtils</sys_name>
         <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
         <sys_update_name>sys_script_include_9e09c9de83a34394a6945a96feaad362</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-13 16:59:03</sys_updated_on>
+        <sys_updated_on>2026-10-14 18:53:00</sys_updated_on>
     </sys_script_include>
 </record_update>

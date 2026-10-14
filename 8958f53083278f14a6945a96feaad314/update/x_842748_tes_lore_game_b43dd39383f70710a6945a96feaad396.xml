@@ -2,19 +2,20 @@
     <x_842748_tes_lore_game action="INSERT_OR_UPDATE">
         <active>true</active>
         <approval_group display_value="US Presidents Group 1" name="US Presidents Group 1">69928da1eb32010045e1a5115206fee8</approval_group>
+        <initial_game>true</initial_game>
         <name>Morrowind</name>
         <order>100</order>
         <sys_class_name>x_842748_tes_lore_game</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-13 17:34:47</sys_created_on>
         <sys_id>b43dd39383f70710a6945a96feaad396</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Morrowind</sys_name>
         <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
         <sys_policy/>
         <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
         <sys_update_name>x_842748_tes_lore_game_b43dd39383f70710a6945a96feaad396</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-13 17:34:47</sys_updated_on>
+        <sys_updated_on>2026-10-14 17:11:00</sys_updated_on>
     </x_842748_tes_lore_game>
 </record_update>
