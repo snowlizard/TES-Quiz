@@ -1,0 +1,1949 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles>[]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "e9da68254e5ea0af81d301c61b372022",
+            "type": "MACROPONENT"
+        },
+        "elementId": "playbook_card_component",
+        "elementLabel": "Playbook Card",
+        "eventMappings": [
+            {
+                "eventMappingId": "cktepvjeoaaaaaakddghhslmnnsziijj",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "now_playbook_exp.PLAYBOOK_CARD#FORM_FIELDS_REQUIRED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "now_playbook_exp.PLAYBOOK_CARD#FORM_FIELDS_REQUIRED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                            "payload": {
+                                "container": {
+                                    "propName": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "formFieldsRequired"
+                                    },
+                                    "value": {
+                                        "binding": {
+                                            "address": [
+                                                "formFieldsRequired"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "32408b42ff7a10109046e490703bf176"
+                        },
+                        "operation": null,
+                        "targetId": "cktepvjeoaaaaaalddghhsisdvhhddjjdd",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": ""
+        },
+        "isNonDestructive": false,
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "c83e76841d9c05f3201aaed961806717",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "playbook_form_1",
+                    "elementLabel": "Playbook Form 1",
+                    "eventMappings": [],
+                    "preset": {
+                        "controllerElementId": "playbook_activity_ui_controller_1",
+                        "disabledEventTargetIds": [],
+                        "id": "3592a94d065f51758818b9e0f3d04d2b"
+                    },
+                    "propertyValues": {
+                        "fieldInclusionList": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                "variables"
+                            ]
+                        },
+                        "showFieldList": {
+                            "type": "JSON_LITERAL"
+                        }
+                    },
+                    "slot": "form",
+                    "styles": null
+                }
+            ]
+        },
+        "preset": {
+            "controllerElementId": "playbook_activity_ui_controller_1",
+            "disabledEventTargetIds": [],
+            "id": "0c7e5d19b72bf80ccc72eb84213b6fe6"
+        },
+        "propertyValues": {
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "8b16a4a343b33110ac8ba40f5bb8f21c",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "playbook_activity_ui_controller_1",
+        "elementLabel": "Playbook Activity UI Controller",
+        "eventMappings": [],
+        "inputValues": {
+            "inputActivityDefinitionId": {
+                "binding": {
+                    "address": [
+                        "activityDefinitionId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputActivityLabel": {
+                "binding": {
+                    "address": [
+                        "activityLabel"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputActivityState": {
+                "binding": {
+                    "address": [
+                        "activityState"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputAdvanced": {
+                "binding": {
+                    "address": [
+                        "advanced"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputAssignedTo": {
+                "binding": {
+                    "address": [
+                        "assignedTo"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputAssociatedRecord": {
+                "binding": {
+                    "address": [
+                        "associatedRecord"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputAssociatedTable": {
+                "binding": {
+                    "address": [
+                        "associatedTable"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputConfigProperties": {
+                "binding": {
+                    "address": [
+                        "configProperties"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputExperienceProperties": {
+                "binding": {
+                    "address": [
+                        "experienceProperties"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputFieldListExperienceProperties": {
+                "type": "JSON_LITERAL",
+                "value": "[\"record_fields\"]"
+            },
+            "inputFillContainer": {
+                "binding": {
+                    "address": [
+                        "fillContainer"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputFormControllerFieldItems": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputLaneContext": {
+                "binding": {
+                    "address": [
+                        "laneContext"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputParentRecord": {
+                "binding": {
+                    "address": [
+                        "parentRecord"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputParentTable": {
+                "binding": {
+                    "address": [
+                        "parentTable"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputPlaybookContext": {
+                "binding": {
+                    "address": [
+                        "playbookContext"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputPlaybookExperienceId": {
+                "binding": {
+                    "address": [
+                        "playbookExperienceId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputPrioritized": {
+                "binding": {
+                    "address": [
+                        "prioritized"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>d3356afeff323010667053ea793bf143,fd7a772cffb23010667053ea793bf1c3,e3c2ca2cc7123010bfbaf89f51c260ce,3302cee8c7123010bfbaf89f51c26020,46e1ca2cc7123010bfbaf89f51c260c7,79a1cee8c7123010bfbaf89f51c2601c,9f51ca2cc7123010bfbaf89f51c260c3,c0d0cee8c7123010bfbaf89f51c26017,8dbd9324c3e33010fc7a60bc0eba8f7c</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Base">814b032ec7653010bfbaf89f51c2608b</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events>b8dbd1b3c3313010948404186e40dd54,b9038863ff713010667053ea793bf12e</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+    "MACROPONENT_PROPERTY_CHANGED": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_playbook_exp.PLAYBOOK_SUFFICIENT_DATA_CHECK",
+                "payload": {
+                    "type": "JSON_LITERAL",
+                    "value": {}
+                },
+                "sysId": "b8dbd1b3c3313010948404186e40dd54"
+            },
+            "operation": null,
+            "targetId": "ckshhzxsaabaaaabbvddhiiddaazzpoxjjbb",
+            "type": "EVENT"
+        }
+    ],
+    "MACROPONENT_READY": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_playbook_exp.PLAYBOOK_SUFFICIENT_DATA_CHECK",
+                "payload": {
+                    "type": "JSON_LITERAL",
+                    "value": {}
+                },
+                "sysId": "b8dbd1b3c3313010948404186e40dd54"
+            },
+            "operation": null,
+            "targetId": "cksjjgddknlaaaaaajddhiiddneetwlaeer",
+            "type": "EVENT"
+        }
+    ],
+    "sn_playbook_exp.PLAYBOOK_FORM_SET_FIELDS": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                "payload": {
+                    "container": {
+                        "propName": {
+                            "type": "JSON_LITERAL",
+                            "value": "formFieldItems"
+                        },
+                        "value": {
+                            "binding": {
+                                "address": [
+                                    "formFieldItems"
+                                ]
+                            },
+                            "type": "EVENT_PAYLOAD_BINDING"
+                        }
+                    },
+                    "type": "MAP_CONTAINER"
+                },
+                "sysId": "32408b42ff7a10109046e490703bf176"
+            },
+            "operation": null,
+            "targetId": "ckteyroggmaaaacceeddghhszeebiieiccu",
+            "type": "EVENT"
+        }
+    ],
+    "sn_playbook_exp.PLAYBOOK_SUFFICIENT_DATA_CHECK": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                "payload": {
+                    "script": {
+                        "apiVersion": "1.0.0",
+                        "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n* @param {any} params.imports\n*/\nfunction evaluateEvent({api, event}) {\n\t// INSERT ANY CUSTOM SUFFICIENT DATA LOGIC HERE\n\n\tconst {\n\t\tassociatedTable,\n\t\tassociatedRecord,\n\t\texperienceProperties,\n\t\tactivityState,\n\t\tactivityLabel\n\t} = api.context.props;\n\n\tconst {\n\t\tdescription = {},\n\t\ttitle = {},\n\t\tassociated_table = {},\n\t\tassociated_record = {},\n\t\tform_fields = {},\n\t\tform_view = {},\n\t\trecord_fields = {},\n\t\tattachment_source = {},\n\t\tshow_checklist = {}\n\t} = experienceProperties;\n\n\tconst propName = 'hasSufficientData';\n\n\t// a card is sufficient with a description or title\n\tif (description.value || title.value)\n\t    return {\n\t\t\tpropName,\n\t\t\tvalue: true\n\t\t};\n\n\t// without a description or title, a card must have an associated record and table\n\tif (!associated_table.value || !associated_record.value)\n\t    return {\n\t\t    propName,\n\t\t    value: false\n\t    };\n\n\t// If we have data to show for this associated record, we're all set\n\tif (\n\t\tform_fields.value ||\n\t\tform_view.value ||\n\t\trecord_fields.value ||\n\t\tattachment_source.value ||\n\t\tshow_checklist.value\n\t)\n\t\treturn {\n\t\t\tpropName,\n\t\t\tvalue: true\n\t\t};\n\n\t// No data to show\n\treturn {\n\t\tpropName,\n\t\tvalue: false\n\t};\n}",
+                        "scriptSysId": null
+                    },
+                    "type": "CLIENT_TRANSFORM_SCRIPT"
+                },
+                "sysId": "32408b42ff7a10109046e490703bf176"
+            },
+            "operation": null,
+            "targetId": "cksjjgdduejjaaaaaamddhiiddqhhlaeuzdd",
+            "type": "EVENT"
+        }
+    ]
+}</internal_event_mappings>
+        <keyboard_shortcuts>{}</keyboard_shortcuts>
+        <layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "playbook_card_component",
+                "rules": {},
+                "styles": {
+                    "flex": "1",
+                    "width": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "align-items": "stretch",
+            "flex-flow": "row nowrap",
+            "height": "100%",
+            "min-height": "5rem"
+        },
+        "templateId": "28bde4cd53431010e6bcddeeff7b12cc",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>TES: UI</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": {
+            "associated_record": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "document_id"
+                },
+                "value": ""
+            },
+            "associated_table": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "table_name"
+                },
+                "value": ""
+            },
+            "attachment_source": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "choice"
+                },
+                "value": ""
+            },
+            "attachments_read_only": {
+                "displayValue": "false",
+                "elementData": {
+                    "type": "boolean"
+                },
+                "value": "false"
+            },
+            "description": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "html"
+                },
+                "value": ""
+            },
+            "experience_status_record": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "document_id"
+                },
+                "value": ""
+            },
+            "experience_status_table": {
+                "displayValue": "sys_flow_data",
+                "elementData": {
+                    "type": "table_name"
+                },
+                "value": "sys_flow_data"
+            },
+            "footer": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            },
+            "form_fields": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "field_list"
+                },
+                "value": ""
+            },
+            "form_view": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            },
+            "icon": {
+                "displayValue": "",
+                "elementData": {
+                    "reference": "st_sys_design_system_icon",
+                    "type": "reference"
+                },
+                "value": ""
+            },
+            "is_automated": {
+                "displayValue": "false",
+                "elementData": {
+                    "type": "boolean"
+                },
+                "value": "false"
+            },
+            "pending_description": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "html"
+                },
+                "value": ""
+            },
+            "pending_title": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            },
+            "record_fields": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "field_list"
+                },
+                "value": ""
+            },
+            "show_checklist": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "boolean"
+                },
+                "value": ""
+            },
+            "show_sla": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "boolean"
+                },
+                "value": ""
+            },
+            "tagline": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            },
+            "title": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            }
+        },
+        "description": "Collection of properties for the Activity UI based on the Experience Type",
+        "fieldType": "json",
+        "label": "Experience properties",
+        "mandatory": false,
+        "name": "experienceProperties",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "associated_record": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "associated_table": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "attachment_source": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "attachments_read_only": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "description": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "experience_status_record": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "experience_status_table": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "footer": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "form_fields": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "form_view": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "icon": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "reference": {
+                                        "type": "string"
+                                    },
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "is_automated": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "pending_description": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "pending_title": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "record_fields": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "show_checklist": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "show_sla": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "tagline": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "title": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "valueType": "object"
+    }
+]</props>
+        <required_sys_props/>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[
+    {
+        "description": "",
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": []
+        },
+        "label": "formFieldItems",
+        "name": "formFieldItems",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "description": "",
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": true
+        },
+        "label": "hasSufficientData",
+        "name": "hasSufficientData",
+        "shape": "",
+        "valueType": "boolean"
+    },
+    {
+        "description": "",
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": false
+        },
+        "label": "formFieldsRequired",
+        "name": "formFieldsRequired",
+        "shape": "",
+        "valueType": "boolean"
+    }
+]</state_properties>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-16 19:29:05</sys_created_on>
+        <sys_id>2d34939083cc1350a6945a96feaad334</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>TES: UI</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_ux_macroponent_2d34939083cc1350a6945a96feaad334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-16 19:42:48</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=2d34939083cc1350a6945a96feaad334"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_ux_macroponent_2d34939083cc1350a6945a96feaad334</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles>[]</bundles><category>page</category><component_dependencies/><composition>[
+    {
+        "definition": {
+            "id": "e9da68254e5ea0af81d301c61b372022",
+            "type": "MACROPONENT"
+        },
+        "elementId": "playbook_card_component",
+        "elementLabel": "Playbook Card",
+        "eventMappings": [
+            {
+                "eventMappingId": "cktepvjeoaaaaaakddghhslmnnsziijj",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "now_playbook_exp.PLAYBOOK_CARD#FORM_FIELDS_REQUIRED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "now_playbook_exp.PLAYBOOK_CARD#FORM_FIELDS_REQUIRED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                            "payload": {
+                                "container": {
+                                    "propName": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "formFieldsRequired"
+                                    },
+                                    "value": {
+                                        "binding": {
+                                            "address": [
+                                                "formFieldsRequired"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "32408b42ff7a10109046e490703bf176"
+                        },
+                        "operation": null,
+                        "targetId": "cktepvjeoaaaaaalddghhsisdvhhddjjdd",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": ""
+        },
+        "isNonDestructive": false,
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "c83e76841d9c05f3201aaed961806717",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "playbook_form_1",
+                    "elementLabel": "Playbook Form 1",
+                    "eventMappings": [],
+                    "preset": {
+                        "controllerElementId": "playbook_activity_ui_controller_1",
+                        "disabledEventTargetIds": [],
+                        "id": "3592a94d065f51758818b9e0f3d04d2b"
+                    },
+                    "propertyValues": {
+                        "fieldInclusionList": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                "variables"
+                            ]
+                        },
+                        "showFieldList": {
+                            "type": "JSON_LITERAL"
+                        }
+                    },
+                    "slot": "form",
+                    "styles": null
+                }
+            ]
+        },
+        "preset": {
+            "controllerElementId": "playbook_activity_ui_controller_1",
+            "disabledEventTargetIds": [],
+            "id": "0c7e5d19b72bf80ccc72eb84213b6fe6"
+        },
+        "propertyValues": {
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition><da_relay_models/><data>[
+    {
+        "definition": {
+            "id": "8b16a4a343b33110ac8ba40f5bb8f21c",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "playbook_activity_ui_controller_1",
+        "elementLabel": "Playbook Activity UI Controller",
+        "eventMappings": [],
+        "inputValues": {
+            "inputActivityDefinitionId": {
+                "binding": {
+                    "address": [
+                        "activityDefinitionId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputActivityLabel": {
+                "binding": {
+                    "address": [
+                        "activityLabel"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputActivityState": {
+                "binding": {
+                    "address": [
+                        "activityState"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputAdvanced": {
+                "binding": {
+                    "address": [
+                        "advanced"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputAssignedTo": {
+                "binding": {
+                    "address": [
+                        "assignedTo"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputAssociatedRecord": {
+                "binding": {
+                    "address": [
+                        "associatedRecord"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputAssociatedTable": {
+                "binding": {
+                    "address": [
+                        "associatedTable"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputConfigProperties": {
+                "binding": {
+                    "address": [
+                        "configProperties"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputExperienceProperties": {
+                "binding": {
+                    "address": [
+                        "experienceProperties"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputFieldListExperienceProperties": {
+                "type": "JSON_LITERAL",
+                "value": "[\"record_fields\"]"
+            },
+            "inputFillContainer": {
+                "binding": {
+                    "address": [
+                        "fillContainer"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputFormControllerFieldItems": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputLaneContext": {
+                "binding": {
+                    "address": [
+                        "laneContext"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputParentRecord": {
+                "binding": {
+                    "address": [
+                        "parentRecord"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputParentTable": {
+                "binding": {
+                    "address": [
+                        "parentTable"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputPlaybookContext": {
+                "binding": {
+                    "address": [
+                        "playbookContext"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputPlaybookExperienceId": {
+                "binding": {
+                    "address": [
+                        "playbookExperienceId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputPrioritized": {
+                "binding": {
+                    "address": [
+                        "prioritized"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data><description/><disable_auto_reflow>false</disable_auto_reflow><dispatched_events>d3356afeff323010667053ea793bf143,fd7a772cffb23010667053ea793bf1c3,e3c2ca2cc7123010bfbaf89f51c260ce,3302cee8c7123010bfbaf89f51c26020,46e1ca2cc7123010bfbaf89f51c260c7,79a1cee8c7123010bfbaf89f51c2601c,9f51ca2cc7123010bfbaf89f51c260c3,c0d0cee8c7123010bfbaf89f51c26017,8dbd9324c3e33010fc7a60bc0eba8f7c</dispatched_events><ext_controller_dep/><extends display_value="Base">814b032ec7653010bfbaf89f51c2608b</extends><extension_point/><form_factors>{}</form_factors><handled_events>b8dbd1b3c3313010948404186e40dd54,b9038863ff713010667053ea793bf12e</handled_events><interactions/><interfaces/><internal_event_mappings>{
+    "MACROPONENT_PROPERTY_CHANGED": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_playbook_exp.PLAYBOOK_SUFFICIENT_DATA_CHECK",
+                "payload": {
+                    "type": "JSON_LITERAL",
+                    "value": {}
+                },
+                "sysId": "b8dbd1b3c3313010948404186e40dd54"
+            },
+            "operation": null,
+            "targetId": "ckshhzxsaabaaaabbvddhiiddaazzpoxjjbb",
+            "type": "EVENT"
+        }
+    ],
+    "MACROPONENT_READY": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_playbook_exp.PLAYBOOK_SUFFICIENT_DATA_CHECK",
+                "payload": {
+                    "type": "JSON_LITERAL",
+                    "value": {}
+                },
+                "sysId": "b8dbd1b3c3313010948404186e40dd54"
+            },
+            "operation": null,
+            "targetId": "cksjjgddknlaaaaaajddhiiddneetwlaeer",
+            "type": "EVENT"
+        }
+    ],
+    "sn_playbook_exp.PLAYBOOK_FORM_SET_FIELDS": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                "payload": {
+                    "container": {
+                        "propName": {
+                            "type": "JSON_LITERAL",
+                            "value": "formFieldItems"
+                        },
+                        "value": {
+                            "binding": {
+                                "address": [
+                                    "formFieldItems"
+                                ]
+                            },
+                            "type": "EVENT_PAYLOAD_BINDING"
+                        }
+                    },
+                    "type": "MAP_CONTAINER"
+                },
+                "sysId": "32408b42ff7a10109046e490703bf176"
+            },
+            "operation": null,
+            "targetId": "ckteyroggmaaaacceeddghhszeebiieiccu",
+            "type": "EVENT"
+        }
+    ],
+    "sn_playbook_exp.PLAYBOOK_SUFFICIENT_DATA_CHECK": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                "payload": {
+                    "script": {
+                        "apiVersion": "1.0.0",
+                        "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n* @param {any} params.imports\n*/\nfunction evaluateEvent({api, event}) {\n\t// INSERT ANY CUSTOM SUFFICIENT DATA LOGIC HERE\n\n\tconst {\n\t\tassociatedTable,\n\t\tassociatedRecord,\n\t\texperienceProperties,\n\t\tactivityState,\n\t\tactivityLabel\n\t} = api.context.props;\n\n\tconst {\n\t\tdescription = {},\n\t\ttitle = {},\n\t\tassociated_table = {},\n\t\tassociated_record = {},\n\t\tform_fields = {},\n\t\tform_view = {},\n\t\trecord_fields = {},\n\t\tattachment_source = {},\n\t\tshow_checklist = {}\n\t} = experienceProperties;\n\n\tconst propName = 'hasSufficientData';\n\n\t// a card is sufficient with a description or title\n\tif (description.value || title.value)\n\t    return {\n\t\t\tpropName,\n\t\t\tvalue: true\n\t\t};\n\n\t// without a description or title, a card must have an associated record and table\n\tif (!associated_table.value || !associated_record.value)\n\t    return {\n\t\t    propName,\n\t\t    value: false\n\t    };\n\n\t// If we have data to show for this associated record, we're all set\n\tif (\n\t\tform_fields.value ||\n\t\tform_view.value ||\n\t\trecord_fields.value ||\n\t\tattachment_source.value ||\n\t\tshow_checklist.value\n\t)\n\t\treturn {\n\t\t\tpropName,\n\t\t\tvalue: true\n\t\t};\n\n\t// No data to show\n\treturn {\n\t\tpropName,\n\t\tvalue: false\n\t};\n}",
+                        "scriptSysId": null
+                    },
+                    "type": "CLIENT_TRANSFORM_SCRIPT"
+                },
+                "sysId": "32408b42ff7a10109046e490703bf176"
+            },
+            "operation": null,
+            "targetId": "cksjjgdduejjaaaaaamddhiiddqhhlaeuzdd",
+            "type": "EVENT"
+        }
+    ]
+}</internal_event_mappings><keyboard_shortcuts>{}</keyboard_shortcuts><layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "playbook_card_component",
+                "rules": {},
+                "styles": {
+                    "flex": "1",
+                    "width": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "align-items": "stretch",
+            "flex-flow": "row nowrap",
+            "height": "100%",
+            "min-height": "5rem"
+        },
+        "templateId": "28bde4cd53431010e6bcddeeff7b12cc",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout><macroponent_dependencies/><name>TES: UI</name><output_prop_mapping/><props>[
+    {
+        "defaultValue": {
+            "associated_record": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "document_id"
+                },
+                "value": ""
+            },
+            "associated_table": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "table_name"
+                },
+                "value": ""
+            },
+            "attachment_source": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "choice"
+                },
+                "value": ""
+            },
+            "attachments_read_only": {
+                "displayValue": "false",
+                "elementData": {
+                    "type": "boolean"
+                },
+                "value": "false"
+            },
+            "description": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "html"
+                },
+                "value": ""
+            },
+            "experience_status_record": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "document_id"
+                },
+                "value": ""
+            },
+            "experience_status_table": {
+                "displayValue": "sys_flow_data",
+                "elementData": {
+                    "type": "table_name"
+                },
+                "value": "sys_flow_data"
+            },
+            "footer": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            },
+            "form_fields": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "field_list"
+                },
+                "value": ""
+            },
+            "form_view": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            },
+            "icon": {
+                "displayValue": "",
+                "elementData": {
+                    "reference": "st_sys_design_system_icon",
+                    "type": "reference"
+                },
+                "value": ""
+            },
+            "is_automated": {
+                "displayValue": "false",
+                "elementData": {
+                    "type": "boolean"
+                },
+                "value": "false"
+            },
+            "pending_description": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "html"
+                },
+                "value": ""
+            },
+            "pending_title": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            },
+            "record_fields": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "field_list"
+                },
+                "value": ""
+            },
+            "show_checklist": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "boolean"
+                },
+                "value": ""
+            },
+            "show_sla": {
+                "displayValue": "",
+                "elementData": {
+                    "type": "boolean"
+                },
+                "value": ""
+            },
+            "tagline": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            },
+            "title": {
+                "elementData": {
+                    "type": "string"
+                },
+                "value": ""
+            }
+        },
+        "description": "Collection of properties for the Activity UI based on the Experience Type",
+        "fieldType": "json",
+        "label": "Experience properties",
+        "mandatory": false,
+        "name": "experienceProperties",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "associated_record": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "associated_table": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "attachment_source": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "attachments_read_only": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "description": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "experience_status_record": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "experience_status_table": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "footer": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "form_fields": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "form_view": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "icon": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "reference": {
+                                        "type": "string"
+                                    },
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "is_automated": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "pending_description": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "pending_title": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "record_fields": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "show_checklist": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "show_sla": {
+                        "properties": {
+                            "displayValue": {
+                                "type": "string"
+                            },
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "tagline": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "title": {
+                        "properties": {
+                            "elementData": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "valueType": "object"
+    }
+]</props><required_sys_props/><required_translations>[ ]</required_translations><root_component/><root_component_config>{}</root_component_config><root_component_definition/><schema_version>1.0.0</schema_version><state_persistence_config/><state_properties>[
+    {
+        "description": "",
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": []
+        },
+        "label": "formFieldItems",
+        "name": "formFieldItems",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "description": "",
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": true
+        },
+        "label": "hasSufficientData",
+        "name": "hasSufficientData",
+        "shape": "",
+        "valueType": "boolean"
+    },
+    {
+        "description": "",
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": false
+        },
+        "label": "formFieldsRequired",
+        "name": "formFieldsRequired",
+        "shape": "",
+        "valueType": "boolean"
+    }
+]</state_properties><style_config>{}</style_config><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-16 19:29:05</sys_created_on><sys_id>2d34939083cc1350a6945a96feaad334</sys_id><sys_mod_count>9</sys_mod_count><sys_name>TES: UI</sys_name><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_ux_macroponent_2d34939083cc1350a6945a96feaad334</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-16 19:42:48</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=2d34939083cc1350a6945a96feaad334"/></record_update>]]></payload>
+        <payload_hash>-279668453</payload_hash>
+        <record_name>TES: UI</record_name>
+        <reverted_from/>
+        <source>79ad23d383bb0710a6945a96feaad36a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-16 19:42:48</sys_created_on>
+        <sys_id>5657975883cc1350a6945a96feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1463d0d050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-16 19:42:48</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>9257975814cc13504fda22be7c800827</update_guid>
+        <update_guid_history>9257975814cc13504fda22be7c800827:-279668453,2237535893cc1350190d9e0003561aa8:-68231573,44275f18edcc1350e438add80f63b7f6:-1272394938,d8d693186acc1350837360af0cc1a689:-1413956054,34b69fd444cc1350f1c8d521d9a4e03b:740128731,a36617d49bcc13507a3a928bce10de36:-750664250,b9f453144acc13509d5b8ab32d0986ce:1940574284,ce349390a1cc1350c7676f572980ee39:-377941520</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-16 19:43:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>66d065461f7b48cb8ce5a11df7f57bb9</sys_id>
+        <sys_metadata>2d34939083cc1350a6945a96feaad334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TES: UI</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_2d34939083cc1350a6945a96feaad334</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_2d34939083cc1350a6945a96feaad334">5657975883cc1350a6945a96feaad328</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-16 19:43:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

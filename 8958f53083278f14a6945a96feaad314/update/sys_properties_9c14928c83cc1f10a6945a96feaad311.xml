@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_842748_tes_lore_game_activity.fields</name>
+        <read_roles/>
+        <suffix>glide.ui.x_842748_tes_lore_game_activity.fields</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-15 20:11:13</sys_created_on>
+        <sys_id>9c14928c83cc1f10a6945a96feaad311</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>glide.ui.x_842748_tes_lore_game_activity.fields</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_properties_9c14928c83cc1f10a6945a96feaad311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-15 21:12:53</sys_updated_on>
+        <type>string</type>
+        <value>name,order,approval_group,initial_game</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=9c14928c83cc1f10a6945a96feaad311"/>
+</record_update>

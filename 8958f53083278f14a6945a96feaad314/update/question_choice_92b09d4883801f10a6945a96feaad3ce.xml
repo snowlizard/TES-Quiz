@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="What famous actor provided the voice for Emperor Uriel Septim VII?">12cfc18483001f10a6945a96feaad38f</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-15 15:16:12</sys_created_on>
+        <sys_id>92b09d4883801f10a6945a96feaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sir Patrick Stewart</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>question_choice_92b09d4883801f10a6945a96feaad3ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-15 15:16:12</sys_updated_on>
+        <text>Sir Patrick Stewart</text>
+        <value>Sir Patrick Stewart</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=92b09d4883801f10a6945a96feaad3ce"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>92b09d4883801f10a6945a96feaad3ce</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-15 15:16:12</sys_created_on>
+        <sys_id>5bb09d4883801f10a6945a96feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-15 15:16:12</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>92b09d4883801f10a6945a96feaad3ce</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-15 15:16:12</sys_created_on>
+        <sys_id>13b09d4883801f10a6945a96feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-15 15:16:12</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

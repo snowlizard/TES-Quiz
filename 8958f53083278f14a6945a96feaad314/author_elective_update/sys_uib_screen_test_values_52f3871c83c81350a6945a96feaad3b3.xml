@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent display_value="TES: Question UI">a6b0b21483c41350a6945a96feaad397</macroponent>
+        <macroponent_config>{}</macroponent_config>
+        <screen/>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-16 18:18:08</sys_created_on>
+        <sys_id>52f3871c83c81350a6945a96feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_52f3871c83c81350a6945a96feaad3b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-16 18:18:08</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_uib_screen_test_values_52f3871c83c81350a6945a96feaad3b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent display_value="TES: Question UI">a6b0b21483c41350a6945a96feaad397</macroponent><macroponent_config>{}</macroponent_config><screen/><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-16 18:18:08</sys_created_on><sys_id>52f3871c83c81350a6945a96feaad3b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_uib_screen_test_values_52f3871c83c81350a6945a96feaad3b3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-16 18:18:08</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-150875917</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>79ad23d383bb0710a6945a96feaad36a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-16 18:18:08</sys_created_on>
+        <sys_id>d6f3871c83c81350a6945a96feaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a145ef89900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-16 18:18:08</sys_updated_on>
+        <type>UIB Test Values</type>
+        <update_guid>56f3871cedc81350ee15677659cd36b5</update_guid>
+        <update_guid_history>56f3871cedc81350ee15677659cd36b5:-150875917</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-16 19:28:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>4cd8dbb7af264db4bcc454a00e2586a4</sys_id>
+        <sys_metadata>52f3871c83c81350a6945a96feaad3b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_52f3871c83c81350a6945a96feaad3b3</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_52f3871c83c81350a6945a96feaad3b3">d6f3871c83c81350a6945a96feaad3b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-16 19:28:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

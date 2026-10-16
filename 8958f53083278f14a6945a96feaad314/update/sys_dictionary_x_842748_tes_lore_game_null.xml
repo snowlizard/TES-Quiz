@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <attributes>enforce_dot_walk_cross_scope_access=true,update_synch=false</attributes>
-        <audit>false</audit>
+        <audit>true</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
@@ -59,7 +59,7 @@
         <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
         <sys_update_name>sys_dictionary_x_842748_tes_lore_game_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-15 02:58:26</sys_updated_on>
+        <sys_updated_on>2026-10-15 19:59:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

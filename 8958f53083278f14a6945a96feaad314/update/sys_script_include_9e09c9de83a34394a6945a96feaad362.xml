@@ -86,7 +86,7 @@ tesUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         return "sys_idIN" + availableGames.join(',');
     },
 
-    setNextGame: function(currentGame) {
+    getNextGame: function(questionnaire, currentGame) {
         let nextGame;
 
         if (gs.nil(currentGame)) {
@@ -98,7 +98,20 @@ tesUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
                 return nextGame.getUniqueValue();
             }
         } else {
-            // -- bunch of logic here
+            let previousGames = this.getProcessedGames(questionnaire);
+
+            let nextGame = new GlideRecord('x_842748_tes_lore_game');
+            nextGame.addEncodedQuery('active=true^initial_game=false^sys_idNOT IN' + previousGames.join(','));
+            nextGame.orderBy('order');
+            nextGame.query();
+
+            while (nextGame.next()) {
+                let nextGameID = nextGame.getUniqueValue();
+
+                if (!previousGames.includes(nextGameID) && !this.hasSkipAction(questionnaire, nextGameID)) {
+                    return nextGameID;
+                }
+            }
         }
 
         return null;
@@ -120,19 +133,57 @@ tesUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         return previousGames;
     },
 
+    hasSkipAction: function(questionnaire, game_id) {
+        let query = 'table_name=' + questionnaire.getTableName() +
+            '^table_sys_id=' + questionnaire.getUniqueValue() +
+            '^question.ref_x_842748_tes_lore_tes_question.can_skip_game=true' +
+            '^question.ref_x_842748_tes_lore_tes_question.skip_game=' + game_id +
+            '^valueSAMEASquestion.ref_x_842748_tes_lore_tes_question.skip_answer_value';
+
+        let questionAnswer = new GlideRecord('question_answer');
+        questionAnswer.addEncodedQuery(query);
+        questionAnswer.query();
+
+        if (questionAnswer.next()) {
+            return true;
+        }
+        return false;
+    },
+
+    getQuestions: function(questionnaire_id) {
+        let quiz_id = questionnaire_id || this.getParameter("sysparm_qid");
+        let questions = [];
+
+        let questionAnswer = new GlideRecord('question_answer');
+        questionAnswer.addEncodedQuery("table_name=x_842748_tes_lore_questionnaire^table_sys_id=" + quiz_id);
+        questionAnswer.query();
+
+        while (questionAnswer.next()) {
+            let temp = '{' +
+                '"name": "' + questionAnswer.question.name + '",' +
+                '"value": "' + questionAnswer.value + '",' +
+                '"game": "' + questionAnswer.question.book.sys_id.toString() + '"' +
+                '}';
+
+            questions.push(JSON.parse(temp));
+        }
+
+        return JSON.stringify(questions);
+    },
+
     type: 'tesUtils'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-27 18:09:03</sys_created_on>
         <sys_id>9e09c9de83a34394a6945a96feaad362</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>tesUtils</sys_name>
         <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
         <sys_update_name>sys_script_include_9e09c9de83a34394a6945a96feaad362</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-15 04:50:57</sys_updated_on>
+        <sys_updated_on>2026-10-16 04:38:48</sys_updated_on>
     </sys_script_include>
 </record_update>
