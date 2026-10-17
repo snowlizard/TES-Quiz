@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code>playbook_4eacce8f83f30310a6945a96feaad38c</code>
+        <commented_message/>
+        <key>Question intake</key>
+        <language>en</language>
+        <message>Question intake</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-17 04:03:04</sys_created_on>
+        <sys_id>e2d9452c83449350a6945a96feaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Question intake</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_ui_message_e2d9452c83449350a6945a96feaad342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-17 04:03:04</sys_updated_on>
+    </sys_ui_message>
+</record_update>

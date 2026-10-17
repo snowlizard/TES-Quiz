@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion">
+    <sys_workspace_declarative_action_exclusion action="INSERT_OR_UPDATE">
+        <action_assignment display_value="save_and_complete_activity">fcc654c9ff232010748653bd6338f15e</action_assignment>
+        <exclude_all_child_tables>false</exclude_all_child_tables>
+        <exclude_self>true</exclude_self>
+        <sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-17 04:11:55</sys_created_on>
+        <sys_id>d9cbc9e483849350a6945a96feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_842748_tes_lore_questionnaire</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_d9cbc9e483849350a6945a96feaad3e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-17 04:11:55</sys_updated_on>
+        <table>x_842748_tes_lore_questionnaire</table>
+        <view display_value="Playbook" name="Playbook">d701325483c41350a6945a96feaad3df</view>
+    </sys_workspace_declarative_action_exclusion>
+</record_update>

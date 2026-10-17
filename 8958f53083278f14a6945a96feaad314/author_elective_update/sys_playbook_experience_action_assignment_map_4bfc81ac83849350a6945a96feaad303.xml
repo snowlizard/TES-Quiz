@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_playbook_experience_action_assignment_map">
+    <sys_playbook_experience_action_assignment_map action="DELETE">
+        <activity_definition display_value="TES: Questionnaire">127b4a4b83f30310a6945a96feaad31d</activity_definition>
+        <declarative_action_assignment display_value="update_record">8bfa63cfff131010834953bd6338f12a</declarative_action_assignment>
+        <display_order/>
+        <playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience>
+        <sys_class_name>sys_playbook_experience_action_assignment_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-17 04:18:09</sys_created_on>
+        <sys_id>4bfc81ac83849350a6945a96feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_playbook_experience_action_assignment_map_4bfc81ac83849350a6945a96feaad303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-17 04:18:09</sys_updated_on>
+    </sys_playbook_experience_action_assignment_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_playbook_experience_action_assignment_map_4bfc81ac83849350a6945a96feaad303</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_playbook_experience_action_assignment_map"><sys_playbook_experience_action_assignment_map action="INSERT_OR_UPDATE"><activity_definition display_value="TES: Questionnaire">127b4a4b83f30310a6945a96feaad31d</activity_definition><declarative_action_assignment display_value="update_record">8bfa63cfff131010834953bd6338f12a</declarative_action_assignment><display_order/><playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience><sys_class_name>sys_playbook_experience_action_assignment_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-17 04:18:09</sys_created_on><sys_id>4bfc81ac83849350a6945a96feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_playbook_experience_action_assignment_map_4bfc81ac83849350a6945a96feaad303</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-17 04:18:09</sys_updated_on></sys_playbook_experience_action_assignment_map></record_update>]]></payload>
+        <payload_hash>24608110</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>79ad23d383bb0710a6945a96feaad36a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-17 04:18:09</sys_created_on>
+        <sys_id>e34d41ac83849350a6945a96feaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a14814de2f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-17 04:18:09</sys_updated_on>
+        <type>Playbook Experience Action Assignment Ma</type>
+        <update_guid>a34d41ac688493501019baac8e2433ef</update_guid>
+        <update_guid_history>a34d41ac688493501019baac8e2433ef:24608110</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-17 04:18:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_playbook_experience_action_assignment_map">sys_playbook_experience_action_assignment_map</sys_db_object>
+        <sys_id>061ac69be55d494d80c83861b1a59d39</sys_id>
+        <sys_metadata>4bfc81ac83849350a6945a96feaad303</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_playbook_experience_action_assignment_map_4bfc81ac83849350a6945a96feaad303</sys_update_name>
+        <sys_update_version display_value="sys_playbook_experience_action_assignment_map_4bfc81ac83849350a6945a96feaad303">e34d41ac83849350a6945a96feaad3f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-17 04:18:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

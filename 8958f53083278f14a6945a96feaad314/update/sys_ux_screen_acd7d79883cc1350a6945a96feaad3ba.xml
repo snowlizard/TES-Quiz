@@ -80,6 +80,10 @@
             "slaConfiguration": ""
         }
     },
+    "experienceProperties": {
+        "type": "JSON_LITERAL",
+        "value": {}
+    },
     "fillContainer": {
         "type": "JSON_LITERAL",
         "value": false
@@ -137,7 +141,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>acd7d79883cc1350a6945a96feaad3ba</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>TES: Question UI</sys_name>
         <sys_overrides/>
         <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
@@ -145,7 +149,7 @@
         <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
         <sys_update_name>sys_ux_screen_acd7d79883cc1350a6945a96feaad3ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-16 20:38:31</sys_updated_on>
+        <sys_updated_on>2026-10-17 04:49:41</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=acd7d79883cc1350a6945a96feaad3ba"/>
 </record_update>

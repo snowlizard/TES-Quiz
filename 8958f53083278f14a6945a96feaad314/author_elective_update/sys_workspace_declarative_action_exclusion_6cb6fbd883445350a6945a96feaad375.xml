@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion">
+    <sys_workspace_declarative_action_exclusion action="DELETE">
+        <action_assignment display_value="save_and_complete_activity">fcc654c9ff232010748653bd6338f15e</action_assignment>
+        <exclude_all_child_tables>false</exclude_all_child_tables>
+        <exclude_self>true</exclude_self>
+        <sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-16 21:59:52</sys_created_on>
+        <sys_id>6cb6fbd883445350a6945a96feaad375</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_842748_tes_lore_version</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_6cb6fbd883445350a6945a96feaad375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-17 04:05:14</sys_updated_on>
+        <table>x_842748_tes_lore_version</table>
+        <view display_value="Default view" name="NULL">Default view</view>
+    </sys_workspace_declarative_action_exclusion>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TES: Lore">8958f53083278f14a6945a96feaad314</application>
+        <file_path/>
+        <instance_id>57798ec7db9eb110199b1729139619a2</instance_id>
+        <instance_name>dev208855</instance_name>
+        <name>sys_workspace_declarative_action_exclusion_6cb6fbd883445350a6945a96feaad375</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion"><sys_workspace_declarative_action_exclusion action="INSERT_OR_UPDATE"><action_assignment display_value="save_and_complete_activity">fcc654c9ff232010748653bd6338f15e</action_assignment><exclude_all_child_tables>false</exclude_all_child_tables><exclude_self>true</exclude_self><sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-16 21:59:52</sys_created_on><sys_id>6cb6fbd883445350a6945a96feaad375</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_842748_tes_lore_version</sys_name><sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package><sys_policy/><sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope><sys_update_name>sys_workspace_declarative_action_exclusion_6cb6fbd883445350a6945a96feaad375</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-17 04:05:14</sys_updated_on><table>x_842748_tes_lore_version</table><view display_value="Default view" name="NULL">Default view</view></sys_workspace_declarative_action_exclusion></record_update>]]></payload>
+        <payload_hash>-746480923</payload_hash>
+        <record_name>x_842748_tes_lore_version</record_name>
+        <reverted_from/>
+        <source>79ad23d383bb0710a6945a96feaad36a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-17 04:05:14</sys_created_on>
+        <sys_id>9a5a05ec83449350a6945a96feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a148090a490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-17 04:05:14</sys_updated_on>
+        <type>Action Exclusion</type>
+        <update_guid>d65a05ec29449350883746861c8a40c1</update_guid>
+        <update_guid_history>d65a05ec29449350883746861c8a40c1:-746480923,104a85ac1c4493502fa36eefd594d88e:-311594235,7a2a81acd544935089186a2eb824cb4a:964747994,86b6fbd81c44535062a8da490988b96f:989662710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-17 04:06:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_workspace_declarative_action_exclusion">sys_workspace_declarative_action_exclusion</sys_db_object>
+        <sys_id>6c917f9e174a4fb4afdde3409e52d5e4</sys_id>
+        <sys_metadata>6cb6fbd883445350a6945a96feaad375</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_842748_tes_lore_version</sys_name>
+        <sys_package display_value="TES: Lore" source="x_842748_tes_lore">8958f53083278f14a6945a96feaad314</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TES: Lore">8958f53083278f14a6945a96feaad314</sys_scope>
+        <sys_scope_delete display_value="">051e5258d0e64c7ebad1df2876b0bfc9</sys_scope_delete>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_6cb6fbd883445350a6945a96feaad375</sys_update_name>
+        <sys_update_version display_value="sys_workspace_declarative_action_exclusion_6cb6fbd883445350a6945a96feaad375">9a5a05ec83449350a6945a96feaad3c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-17 04:06:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
